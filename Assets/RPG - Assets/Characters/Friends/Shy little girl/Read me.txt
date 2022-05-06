@@ -1,0 +1,3 @@
+Thank you for purchasing this pack :D
+
+For have the same speed than the preview gif for the animation, you have to set the time to 0.2sec for each frame
