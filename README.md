@@ -87,3 +87,4 @@ Alınan kararlar: Veritabanı oluşturması email ile toplanacak veriler için g
 # Sprint 3
 
 ---
+
