@@ -27,7 +27,6 @@ Midnight Developers
 - Open World
 - Pixel Art
 - 2D
-- Top-Down
 - Roguelike
 
 ## Hedef Kitle
