@@ -77,6 +77,7 @@ Alınan kararlar: 2D ve Open World bir oyun yapılması kararlaştırıldı. Ön
 
 -**Diğer Notlar**:
 - [Link to APK](https://drive.google.com/file/d/1xdG9lqnFakvpY5Ax3UCSazqWi1_cayjj/view?usp=sharing)
+- [Link to story](https://docs.google.com/document/d/1qeP6IqIVlxglghG1ofAf2P7BxvNAaVSftV7PXGu6gaM/edit?usp=sharing)
 
 ---
 
