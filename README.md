@@ -67,7 +67,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
   ![Screenshot 2](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint1Documents/productss2.png)
 
 - **Sprint Review**: 
-Alınan kararlar: Veritabanı oluşturması email ile toplanacak veriler için gerekli görülmüştür. Fakat bir yandan da veritabanı form sayfası için gerekli olmamıştır. O sebeple PBI bir sonraki sprint'e aktarılmıştır. Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir. Sprint Review katılımcıları: ......
+Alınan kararlar: 2D ve Open World bir oyun yapılması kararlaştırıldı. Önceden top-down olarak asset'ler belirlendi. Fakat asset bulma konusunda sıkıntı çektiğimiz için platform olarak oyunu yapmaya karar verdik. Buna göre asset'ler seçildi. Android app olarak oyunu çıkarmaya karar verdik. Bu sprint'te main ve NPC karakterler oluşturuldu. Oyunun senaryosu bu sprint'te geliştirilmeye başlandı. Sprint Review katılımcıları: Batuhan Sedat KOLBAŞ, Merve ŞAHAN, Beyza Zeynep TOPÇU, Orkun DEMİRCİ, Şekufe KALKAN
 
 - **Sprint Retrospective:**
   - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır
