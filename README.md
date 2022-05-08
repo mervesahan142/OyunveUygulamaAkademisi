@@ -76,7 +76,7 @@ Alınan kararlar: 2D ve Open World bir oyun yapılması kararlaştırıldı. Ön
   - Oyun için ayrılan efor/saat arttırılmalı.
 
 -**Diğer Notlar**:
-- N/A
+- ![APK](https://drive.google.com/file/d/1xdG9lqnFakvpY5Ax3UCSazqWi1_cayjj/view?usp=sharing)
 
 ---
 
