@@ -90,3 +90,4 @@ Alınan kararlar: 2D ve Open World bir oyun yapılması kararlaştırıldı. Ön
 
 ---
 
+
