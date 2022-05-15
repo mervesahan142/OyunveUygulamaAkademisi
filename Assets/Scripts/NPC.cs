@@ -12,6 +12,7 @@ public class NPC : MonoBehaviour
     //ConversationManager cm = new ConversationManager();
     string[] playerWords = new string[] {"Hello there","I look for Masimo. Do you know him?"};
     string[] mayorWords = new string[] {"Hey... Welcome to our village adventurer.","Ye, he must be at his home."};
+
     int playerMayorSpeechCounter = 0;
 
     private void Awake() {
@@ -48,6 +49,7 @@ public class NPC : MonoBehaviour
 
     public void Speak(){
         //cm.Speak(this.gameObject.name);
+
         if(playerMayorSpeechCounter < 2){
             conversationArea.gameObject.SetActive(true);
             conversationButton.gameObject.SetActive(false);
@@ -69,5 +71,6 @@ public class NPC : MonoBehaviour
         playerMayorSpeechCounter++;
         Invoke("Speak",2f);
     }
+    
     
 }

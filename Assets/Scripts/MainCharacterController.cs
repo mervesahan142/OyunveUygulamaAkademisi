@@ -7,6 +7,7 @@ public class MainCharacterController : MonoBehaviour
     bool isMoveRight, isMoveLeft;
     public float charakterSpeed = 2f;
     Animator anim;
+    
     void Awake()
     {
         anim = GetComponent<Animator>();
