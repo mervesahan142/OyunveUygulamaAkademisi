@@ -8,7 +8,7 @@ Midnight Developers
 ## Takım Elemanları
 
 - Batuhan Sedat KOLBAŞ: Product Owner
-- Merve Şahan: Scrum Master
+- Merve ŞAHAN: Scrum Master
 - Beyza Zeynep TOPÇU: Team Member/Developer
 - Orkun DEMİRCİ: Team Member/Developer
 - Şekufe KALKAN: Team Member/Developer
@@ -49,33 +49,35 @@ Midnight Developers
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 60 Puan
 
-- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 350 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 60 ile başlaması gerektiğine karar verildi.
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 150 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 60 ile başlaması gerektiğine karar verildi.
 
 - **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
 
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
 
-- **Daily Scrum**: Daily Scrum toplantılarının Watsapp üzerinden yapılmasına ve ek olarak çarşamba ve cumartesi günleri Discord üzerinden sesli toplantılar düzenlenmesine karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/DailyScrumMeetingNotesSprint1.docx?raw=true)
+- **Daily Scrum**: Daily Scrum toplantılarının Watsapp üzerinden yapılmasına ve ek olarak çarşamba ve cumartesi günleri Discord üzerinden sesli toplantılar düzenlenmesine karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://docs.google.com/document/d/14oap1eQR4GSkmV9akzDqlCCkTzoirvryMO8fbXKxPkM/edit?usp=sharing)
 
 - **Sprint board update**: Sprint board screenshotları: 
 ![Backlog 1](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint1Documents/sprint%201(miro).PNG) 
 ![Backlog 2](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint1Documents/sprint%201(updated%20version).PNG) 
 ![Backlog 3](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint1Documents/sprint%201.2.png)
+![Backlog_4](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint1Documents/sprint1_2.version.PNG)
 
 - **Ürün Durumu**: Ekran görüntüleri:
-  ![Screenshot 1](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/productss1.png?raw=true)
-  ![Screenshot 2](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/productss2.png?raw=true)
+  ![Screenshot 1](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint1Documents/productss1.png)
+  ![Screenshot 2](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint1Documents/productss2.png)
 
 - **Sprint Review**: 
-Alınan kararlar: Veritabanı oluşturması email ile toplanacak veriler için gerekli görülmüştür. Fakat bir yandan da veritabanı form sayfası için gerekli olmamıştır. O sebeple PBI bir sonraki sprint'e aktarılmıştır. Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir. Sprint Review katılımcıları: ......
+Alınan kararlar: 2D ve Open World bir oyun yapılması kararlaştırıldı. Önceden top-down olarak asset'ler belirlendi. Fakat asset bulma konusunda sıkıntı çektiğimiz için platform olarak oyunu yapmaya karar verdik. Buna göre asset'ler seçildi. Android app olarak oyunu çıkarmaya karar verdik. Bu sprint'te main ve NPC karakterler oluşturuldu. Oyunun senaryosu bu sprint'te geliştirilmeye başlandı. Sprint Review katılımcıları: Batuhan Sedat KOLBAŞ, Merve ŞAHAN, Beyza Zeynep TOPÇU, Orkun DEMİRCİ, Şekufe KALKAN
 
 - **Sprint Retrospective:**
-  - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır
-  - Tahmin puanları gözden geçirilmeli ve sprint planlama toplantılarında gerekli geri bildirimlerin developer'lar tarafından verildiğine emin olunmalı
-  - Unit test'ler için ayrılan efor/saat arttırılmalı 
+  - Takım içindeki bireysel sorumlulukların arttırılması ile ilgili düzenleme yapılması kararı alınmıştır.
+  - Tahmin puanları gözden geçirildikten sonra bu sprint'te hedeflenen puana ulaşılamadığı fark edildiği için bir sonraki sprint planlaması toplantısında puan dağılımının daha uygulanabilir hedefler konmasına karar verilmiştir.
+  - Oyun için ayrılan efor/saat arttırılmalı.
 
 -**Diğer Notlar**:
-- N/A
+- [Link to APK](https://drive.google.com/file/d/1xdG9lqnFakvpY5Ax3UCSazqWi1_cayjj/view?usp=sharing)
+- [Link to story](https://docs.google.com/document/d/1qeP6IqIVlxglghG1ofAf2P7BxvNAaVSftV7PXGu6gaM/edit?usp=sharing)
 
 ---
 
