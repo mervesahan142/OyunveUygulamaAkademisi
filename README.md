@@ -85,9 +85,9 @@ Alınan kararlar: 2D ve Open World bir oyun yapılması kararlaştırıldı. Ön
 
 - **Sprint Notları**: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
 
-- **Sprint içinde tamamlanması tahmin edilen puan**: 110 Puan
+- **Sprint içinde tamamlanması tahmin edilen puan**: 60 Puan
 
-- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 220 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ikinci sprint'in en azından 110 ile başlaması gerektiğine karar verildi.
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 250 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ikinci sprint'in en azından 60 ile başlaması gerektiğine karar verildi.
 
 - **Backlog düzeni ve Story seçimleri**: Daha önce proje boyunca tamamlanması gereken sprint puanı 150 olarak belirlenmişti ve 1.sprint'te 60 puanın tamamlanması hedeflenmişti. Fakat 2.sprint'te backlog'larda ve yapılacak task'lerde düzenleme yapıldı ve story point'lerde güncelleme yapıldı. Bu durumda toplam story point ve sprint 2'de tamamlanacak story point'ler güncellendi. Backlog'umuz ikinci yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
 
