@@ -100,6 +100,9 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 ![Backlog 2](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint2Documents/sprint2.2.png) 
 ![Backlog 3](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint2Documents/sprint2.3.png)
 ![Backlog_4](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint2Documents/sprint2.4.png)
+![Backlog_5](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint2Documents/sprint2.5.png)
+![Backlog_6](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint2Documents/sprint2.6.png)
+![Backlog_7](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint2Documents/sprint2.7.png)
 
 - **Ürün Durumu**: Ekran görüntüleri:
   ![Screenshot 1]()
