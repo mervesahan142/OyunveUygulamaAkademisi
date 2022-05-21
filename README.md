@@ -93,7 +93,7 @@ Alınan kararlar: 2D ve Open World bir oyun yapılması kararlaştırıldı. Ön
 
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
 
-- **Daily Scrum**: Daily Scrum toplantılarının Watsapp üzerinden yapılmasına ve ek olarak çarşamba ve cumartesi günleri Discord üzerinden sesli toplantılar düzenlenmesine karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 2 Daily Scrum Chats]()
+- **Daily Scrum**: Daily Scrum toplantılarının Watsapp üzerinden yapılmasına ve ek olarak çarşamba ve cumartesi günleri Discord üzerinden sesli toplantılar düzenlenmesine karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 2 Daily Scrum Chats](https://docs.google.com/document/d/19F4HORR3y_y2Tnfo4owzOPsL-pWz4xs-7jKmnwiB6Jo/edit?usp=sharing)
 
 - **Sprint board update**: Sprint board screenshotları: 
 ![Backlog 1](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint2Documents/sprint2.1.png) 
