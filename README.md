@@ -85,25 +85,25 @@ Alınan kararlar: 2D ve Open World bir oyun yapılması kararlaştırıldı. Ön
 
 - **Sprint Notları**: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
 
-- **Sprint içinde tamamlanması tahmin edilen puan**: 60 Puan
+- **Sprint içinde tamamlanması tahmin edilen puan**: 110 Puan
 
-- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 150 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 60 ile başlaması gerektiğine karar verildi.
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 220 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ikinci sprint'in en azından 110 ile başlaması gerektiğine karar verildi.
 
-- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
+- **Backlog düzeni ve Story seçimleri**: Daha önce proje boyunca tamamlanması gereken sprint puanı 150 olarak belirlenmişti ve 1.sprint'te 60 puanın tamamlanması hedeflenmişti. Fakat 2.sprint'te backlog'larda ve yapılacak task'lerde düzenleme yapıldı ve story point'lerde güncelleme yapıldı. Bu durumda toplam story point ve sprint 2'de tamamlanacak story point'ler güncellendi. Backlog'umuz ikinci yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
 
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
 
-- **Daily Scrum**: Daily Scrum toplantılarının Watsapp üzerinden yapılmasına ve ek olarak çarşamba ve cumartesi günleri Discord üzerinden sesli toplantılar düzenlenmesine karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://docs.google.com/document/d/14oap1eQR4GSkmV9akzDqlCCkTzoirvryMO8fbXKxPkM/edit?usp=sharing)
+- **Daily Scrum**: Daily Scrum toplantılarının Watsapp üzerinden yapılmasına ve ek olarak çarşamba ve cumartesi günleri Discord üzerinden sesli toplantılar düzenlenmesine karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 2 Daily Scrum Chats]()
 
 - **Sprint board update**: Sprint board screenshotları: 
-![Backlog 1](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint1Documents/sprint%201(miro).PNG) 
-![Backlog 2](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint1Documents/sprint%201(updated%20version).PNG) 
-![Backlog 3](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint1Documents/sprint%201.2.png)
-![Backlog_4](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint1Documents/sprint1_2.version.PNG)
+![Backlog 1](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint2Documents/sprint2.1.png) 
+![Backlog 2](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint2Documents/sprint2.2.png) 
+![Backlog 3](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint2Documents/sprint2.3.png)
+![Backlog_4](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint2Documents/sprint2.4.png)
 
 - **Ürün Durumu**: Ekran görüntüleri:
-  ![Screenshot 1](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint1Documents/productss1.png)
-  ![Screenshot 2](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint1Documents/productss2.png)
+  ![Screenshot 1]()
+  ![Screenshot 2]()
 
 - **Sprint Review**: 
 Alınan kararlar: 2D ve Open World bir oyun yapılması kararlaştırıldı. Önceden top-down olarak asset'ler belirlendi. Fakat asset bulma konusunda sıkıntı çektiğimiz için platform olarak oyunu yapmaya karar verdik. Buna göre asset'ler seçildi. Android app olarak oyunu çıkarmaya karar verdik. Bu sprint'te main ve NPC karakterler oluşturuldu. Oyunun senaryosu bu sprint'te geliştirilmeye başlandı. Sprint Review katılımcıları: Batuhan Sedat KOLBAŞ, Merve ŞAHAN, Beyza Zeynep TOPÇU, Orkun DEMİRCİ, Şekufe KALKAN
@@ -114,7 +114,7 @@ Alınan kararlar: 2D ve Open World bir oyun yapılması kararlaştırıldı. Ön
   - Oyun için ayrılan efor/saat arttırılmalı.
 
 -**Diğer Notlar**:
-- [Link to APK](https://drive.google.com/file/d/1xdG9lqnFakvpY5Ax3UCSazqWi1_cayjj/view?usp=sharing)
+- [Link to APK]()
 - [Link to story](https://docs.google.com/document/d/1qeP6IqIVlxglghG1ofAf2P7BxvNAaVSftV7PXGu6gaM/edit?usp=sharing)
 
 
