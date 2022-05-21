@@ -1,7 +1,121 @@
 fileFormatVersion: 2
 guid: 22dfd88ebf30aa04dbe64aaa18209cb2
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -4469646849258768430
+    second: spr_FirePlace_strip_0
+  - first:
+      213: -6131998599118182881
+    second: spr_FirePlace_strip_1
+  - first:
+      213: 1238807638189596906
+    second: spr_FirePlace_strip_2
+  - first:
+      213: 8404199459280529110
+    second: spr_FirePlace_strip_3
+  - first:
+      213: 4133057478686257665
+    second: spr_FirePlace_strip_4
+  - first:
+      213: 645755205914200573
+    second: spr_FirePlace_strip_5
+  - first:
+      213: -4120148234480484714
+    second: spr_FirePlace_strip_6
+  - first:
+      213: 3716583440587668286
+    second: spr_FirePlace_strip_7
+  - first:
+      213: -8455178304836818188
+    second: spr_FirePlace_strip_8
+  - first:
+      213: -6157512504128880501
+    second: spr_FirePlace_strip_9
+  - first:
+      213: 6316597676787284019
+    second: spr_FirePlace_strip_10
+  - first:
+      213: 3462594216924619440
+    second: spr_FirePlace_strip_11
+  - first:
+      213: -1435361366266429047
+    second: spr_FirePlace_strip_12
+  - first:
+      213: -7811301796814047746
+    second: spr_FirePlace_strip_13
+  - first:
+      213: 1033803288827814434
+    second: spr_FirePlace_strip_14
+  - first:
+      213: -7605190724539728097
+    second: spr_FirePlace_strip_15
+  - first:
+      213: 2592245718668988208
+    second: spr_FirePlace_strip_16
+  - first:
+      213: -7713430235231988503
+    second: spr_FirePlace_strip_18
+  - first:
+      213: -145739421052621128
+    second: spr_FirePlace_strip_19
+  - first:
+      213: -6254733156194181021
+    second: spr_FirePlace_strip_20
+  - first:
+      213: 7062140107337802321
+    second: spr_FirePlace_strip_21
+  - first:
+      213: -2709605545632082580
+    second: spr_FirePlace_strip_22
+  - first:
+      213: 8382560359930561203
+    second: spr_FirePlace_strip_23
+  - first:
+      213: -382782472487194666
+    second: spr_FirePlace_strip_24
+  - first:
+      213: -125403688981874943
+    second: spr_FirePlace_strip_25
+  - first:
+      213: 6237762294638205899
+    second: spr_FirePlace_strip_26
+  - first:
+      213: 4604298763395826407
+    second: spr_FirePlace_strip_27
+  - first:
+      213: -7285102276537894157
+    second: spr_FirePlace_strip_28
+  - first:
+      213: 371690104220483097
+    second: spr_FirePlace_strip_29
+  - first:
+      213: 965914704687394697
+    second: spr_FirePlace_strip_30
+  - first:
+      213: -1453280153777157508
+    second: spr_FirePlace_strip_31
+  - first:
+      213: 1903107768450240016
+    second: spr_FirePlace_strip_32
+  - first:
+      213: 6989054037548003699
+    second: spr_FirePlace_strip_33
+  - first:
+      213: -1779651116813816710
+    second: spr_FirePlace_strip_34
+  - first:
+      213: 3640909979747303896
+    second: spr_FirePlace_strip_35
+  - first:
+      213: -4482505449462349573
+    second: spr_FirePlace_strip_36
+  - first:
+      213: 1557791147235168486
+    second: spr_FirePlace_strip_37
+  - first:
+      213: -2210167929938817974
+    second: spr_FirePlace_strip_38
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +155,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +189,831 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 236
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7bc7e2fdf98f1c0800000000000000
+      internalID: -4469646849258768430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 236
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f162e5843c3c6eaa0800000000000000
+      internalID: -6131998599118182881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_2
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 236
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0e453cbf0213110800000000000000
+      internalID: 1238807638189596906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 236
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d622ff71e6b1a470800000000000000
+      internalID: 8404199459280529110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_4
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 236
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102bd5501e19b5930800000000000000
+      internalID: 4133057478686257665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_5
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 236
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9006c30fe26f800800000000000000
+      internalID: 645755205914200573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 187
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e76dd920b42d6c0800000000000000
+      internalID: -4120148234480484714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_7
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 187
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3bb35aa2f4f39330800000000000000
+      internalID: 3716583440587668286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_8
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 187
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4faac93112c29aa80800000000000000
+      internalID: -8455178304836818188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_9
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 187
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b804f5b500f1c8aa0800000000000000
+      internalID: -6157512504128880501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_10
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 187
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338b6f9ce1019a750800000000000000
+      internalID: 6316597676787284019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_11
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 187
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b22d1d381b9d0030800000000000000
+      internalID: 3462594216924619440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 145
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981ce573172941ce0800000000000000
+      internalID: -1435361366266429047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_13
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 145
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5378fd66ea89390800000000000000
+      internalID: -7811301796814047746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_14
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 145
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22266362d9ec85e00800000000000000
+      internalID: 1033803288827814434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_15
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 145
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1fb6be745fe47690800000000000000
+      internalID: -7605190724539728097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_16
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 145
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fcacf2fb189f320800000000000000
+      internalID: 2592245718668988208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_18
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 145
+        width: 49
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e45d3d811464f490800000000000000
+      internalID: -7713430235231988503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_19
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 152
+        width: 35
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be236ac4ca3afdf0800000000000000
+      internalID: -145739421052621128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_20
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 152
+        width: 44
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360203c5559b239a0800000000000000
+      internalID: -6254733156194181021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_21
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 135
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152a8e3c203c10260800000000000000
+      internalID: 7062140107337802321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_22
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 145
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65db23cc1c856ad0800000000000000
+      internalID: -2709605545632082580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_23
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 107
+        width: 84
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b28ee11c36d45470800000000000000
+      internalID: 8382560359930561203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_24
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 109
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dfa72d8e5510baf0800000000000000
+      internalID: -382782472487194666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_25
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 109
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10736b0620a724ef0800000000000000
+      internalID: -125403688981874943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_26
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 109
+        width: 36
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb5c3502cbf09650800000000000000
+      internalID: 6237762294638205899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_27
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 109
+        width: 61
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e28af7a451c5ef30800000000000000
+      internalID: 4604298763395826407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_28
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 109
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fab19ed31e16ea90800000000000000
+      internalID: -7285102276537894157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_29
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 108
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ef6943e22882500800000000000000
+      internalID: 371690104220483097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_30
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 108
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98fe7386e4e976d00800000000000000
+      internalID: 965914704687394697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_31
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 65
+        width: 62
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7accf26669e4dbe0800000000000000
+      internalID: -1453280153777157508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_32
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 53
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e43cbae62396a10800000000000000
+      internalID: 1903107768450240016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_33
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371fe081e9b1ef060800000000000000
+      internalID: 6989054037548003699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_34
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c6f2efcb86d47e0800000000000000
+      internalID: -1779651116813816710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_35
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d14302165c178230800000000000000
+      internalID: 3640909979747303896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_36
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf04b050b01fac1c0800000000000000
+      internalID: -4482505449462349573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_37
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0533d7bc26e9510800000000000000
+      internalID: 1557791147235168486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_FirePlace_strip_38
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c490a4af7e351e0800000000000000
+      internalID: -2210167929938817974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

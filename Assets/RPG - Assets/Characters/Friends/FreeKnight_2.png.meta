@@ -1,0 +1,2568 @@
+fileFormatVersion: 2
+guid: 67c6d18e4ba5cef4cb7a45168a9925c1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3739910626067967737
+    second: 11
+  - first:
+      213: -2405235565188745670
+    second: 12
+  - first:
+      213: -4056847089440311279
+    second: 13
+  - first:
+      213: 6204813002546841876
+    second: 14
+  - first:
+      213: 1957103116743040047
+    second: 21
+  - first:
+      213: -326854733047640364
+    second: 22
+  - first:
+      213: -4325275347020087676
+    second: 23
+  - first:
+      213: 333266628227215457
+    second: 24
+  - first:
+      213: 8212472089463272624
+    second: 25
+  - first:
+      213: -6169613394256784581
+    second: 26
+  - first:
+      213: 5425915537074145223
+    second: FreeKnight_2_10
+  - first:
+      213: 6858379609900391154
+    second: FreeKnight_2_11
+  - first:
+      213: -6552398541983964938
+    second: FreeKnight_2_12
+  - first:
+      213: 1346864560837519545
+    second: FreeKnight_2_13
+  - first:
+      213: 1858634652229063262
+    second: FreeKnight_2_14
+  - first:
+      213: -4452458212336001339
+    second: FreeKnight_2_15
+  - first:
+      213: 2673669324931778262
+    second: FreeKnight_2_16
+  - first:
+      213: -647722987376653148
+    second: FreeKnight_2_17
+  - first:
+      213: -5297870943850515519
+    second: FreeKnight_2_18
+  - first:
+      213: 885140781065923973
+    second: FreeKnight_2_19
+  - first:
+      213: -673496715142016102
+    second: FreeKnight_2_20
+  - first:
+      213: 5930990920892603723
+    second: FreeKnight_2_21
+  - first:
+      213: -3557292964936982168
+    second: FreeKnight_2_22
+  - first:
+      213: 5712441912035808725
+    second: FreeKnight_2_23
+  - first:
+      213: -2791449401537530215
+    second: FreeKnight_2_24
+  - first:
+      213: 426232751473203781
+    second: FreeKnight_2_25
+  - first:
+      213: -4850351840938884910
+    second: FreeKnight_2_26
+  - first:
+      213: -6812799926933455633
+    second: FreeKnight_2_27
+  - first:
+      213: 2679958802394874822
+    second: FreeKnight_2_28
+  - first:
+      213: -8502024227407341491
+    second: FreeKnight_2_29
+  - first:
+      213: 8441270926607055286
+    second: FreeKnight_2_30
+  - first:
+      213: -8444003460754615167
+    second: FreeKnight_2_31
+  - first:
+      213: 2767282817855135198
+    second: 31
+  - first:
+      213: -4294433878750306385
+    second: 32
+  - first:
+      213: 8828331759515470449
+    second: 33
+  - first:
+      213: -1185054008942104715
+    second: FreeKnight_2_35
+  - first:
+      213: -7806176871318060934
+    second: FreeKnight_2_36
+  - first:
+      213: 2041879993069301018
+    second: 41
+  - first:
+      213: -3487734105613710577
+    second: 42
+  - first:
+      213: 5164250535917544903
+    second: 43
+  - first:
+      213: 8241838686085610702
+    second: 44
+  - first:
+      213: -1047061691740325182
+    second: 45
+  - first:
+      213: 188697022115931039
+    second: 46
+  - first:
+      213: -4177332797350202025
+    second: 47
+  - first:
+      213: -7598989981877615092
+    second: 48
+  - first:
+      213: -6008568445012464129
+    second: 49
+  - first:
+      213: -2068053170423081734
+    second: 50
+  - first:
+      213: 1218020552490684518
+    second: FreeKnight_2_47
+  - first:
+      213: -5909809303043057983
+    second: FreeKnight_2_48
+  - first:
+      213: 6701784088986455071
+    second: 61
+  - first:
+      213: -725420725647261603
+    second: 62
+  - first:
+      213: 5117265519961332349
+    second: 63
+  - first:
+      213: -5221445076957498508
+    second: 64
+  - first:
+      213: 4447987049455418318
+    second: 65
+  - first:
+      213: -4751785581352479362
+    second: 66
+  - first:
+      213: 3063592070361333677
+    second: 67
+  - first:
+      213: -2901751820063421431
+    second: 68
+  - first:
+      213: -9178288917248764421
+    second: FreeKnight_2_57
+  - first:
+      213: 6752812492172943025
+    second: FreeKnight_2_58
+  - first:
+      213: -6148819389591498974
+    second: FreeKnight_2_59
+  - first:
+      213: 2749406399260587757
+    second: FreeKnight_2_60
+  - first:
+      213: -5562397827355385837
+    second: FreeKnight_2_61
+  - first:
+      213: 1431078178584672085
+    second: FreeKnight_2_62
+  - first:
+      213: -4419535669673684605
+    second: FreeKnight_2_63
+  - first:
+      213: -1905374986888025065
+    second: FreeKnight_2_64
+  - first:
+      213: 4107045789158438851
+    second: FreeKnight_2_65
+  - first:
+      213: -6401964069547492574
+    second: FreeKnight_2_66
+  - first:
+      213: -3772915423745245704
+    second: FreeKnight_2_67
+  - first:
+      213: 3673349956881783467
+    second: FreeKnight_2_68
+  - first:
+      213: 5371954355849060856
+    second: FreeKnight_2_69
+  - first:
+      213: -953972316723716805
+    second: FreeKnight_2_70
+  - first:
+      213: -2893442478645180791
+    second: FreeKnight_2_71
+  - first:
+      213: 4748877775619443546
+    second: FreeKnight_2_72
+  - first:
+      213: 3900272240401536960
+    second: FreeKnight_2_73
+  - first:
+      213: -3962259453275885879
+    second: FreeKnight_2_74
+  - first:
+      213: -6053955659765095388
+    second: FreeKnight_2_75
+  - first:
+      213: 8813397428114666199
+    second: FreeKnight_2_76
+  - first:
+      213: -4314322958508832654
+    second: FreeKnight_2_77
+  - first:
+      213: 4553743230622551156
+    second: FreeKnight_2_78
+  - first:
+      213: -5115372418832735690
+    second: 71
+  - first:
+      213: 3312913008191065826
+    second: 72
+  - first:
+      213: -4440317517619160930
+    second: 73
+  - first:
+      213: 6164773990104866117
+    second: 74
+  - first:
+      213: -6200386026423260303
+    second: 75
+  - first:
+      213: -3112316898467137718
+    second: 76
+  - first:
+      213: 5734453956907893556
+    second: 77
+  - first:
+      213: 2295101220084837004
+    second: 78
+  - first:
+      213: -1260022171434462969
+    second: 79
+  - first:
+      213: -5713849227455754430
+    second: 80
+  - first:
+      213: 5394307326196270634
+    second: FreeKnight_2_89
+  - first:
+      213: -3352939840044853512
+    second: FreeKnight_2_90
+  - first:
+      213: -3561311996357616165
+    second: FreeKnight_2_91
+  - first:
+      213: -5344710929296371520
+    second: FreeKnight_2_92
+  - first:
+      213: 3062962537959145295
+    second: FreeKnight_2_93
+  - first:
+      213: -330093084182676853
+    second: FreeKnight_2_94
+  - first:
+      213: 5058110348281940594
+    second: FreeKnight_2_95
+  - first:
+      213: 4595757577024653945
+    second: FreeKnight_2_96
+  - first:
+      213: 8647858908347381804
+    second: FreeKnight_2_97
+  - first:
+      213: 7678547292882905264
+    second: FreeKnight_2_98
+  - first:
+      213: -3087050693693287849
+    second: FreeKnight_2_99
+  - first:
+      213: -4063767379791297704
+    second: FreeKnight_2_100
+  - first:
+      213: -4312041825869085893
+    second: FreeKnight_2_101
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 11
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 594
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe6d7646e4d6e330800000000000000
+      internalID: 3739910626067967737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 594
+        width: 64
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36f9c73ff2ee9ed0800000000000000
+      internalID: -2405235565188745670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 594
+        width: 63
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11835d5f01f23b7c0800000000000000
+      internalID: -4056847089440311279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 14
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 594
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41987822d8ceb1650800000000000000
+      internalID: 6204813002546841876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 594
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c574e5ae6092b10800000000000000
+      internalID: 1957103116743040047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 594
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de4a8f1a57c67bf0800000000000000
+      internalID: -326854733047640364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 594
+        width: 75
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48efc19fcf889f3c0800000000000000
+      internalID: -4325275347020087676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 24
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 594
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160b9fe8b3000a400800000000000000
+      internalID: 333266628227215457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 25
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 594
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4b4449adf88f170800000000000000
+      internalID: 8212472089463272624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 26
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 594
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3315d15e41216aa0800000000000000
+      internalID: -6169613394256784581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_10
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 596
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7c398ee69bc4b40800000000000000
+      internalID: 5425915537074145223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_11
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 596
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa15eefaebdd2f50800000000000000
+      internalID: 6858379609900391154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_12
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 539
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0224efd343115a0800000000000000
+      internalID: -6552398541983964938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_13
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 539
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8684d9e2601b210800000000000000
+      internalID: 1346864560837519545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_14
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 539
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5258556e523bc910800000000000000
+      internalID: 1858634652229063262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_15
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 539
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce117498d0b532c0800000000000000
+      internalID: -4452458212336001339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_16
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 540
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6ca67d518ca1520800000000000000
+      internalID: 2673669324931778262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_17
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 540
+        width: 79
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac4f80ff53d207f0800000000000000
+      internalID: -647722987376653148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_18
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 540
+        width: 51
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c33de5227e2a76b0800000000000000
+      internalID: -5297870943850515519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_19
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 540
+        width: 48
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d65a7c9d6a84c00800000000000000
+      internalID: 885140781065923973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_20
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 535
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9351905e4247a6f0800000000000000
+      internalID: -673496715142016102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_21
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 490
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ddedd91dc1f4250800000000000000
+      internalID: 5930990920892603723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_22
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 484
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8616fee45e4f1aec0800000000000000
+      internalID: -3557292964936982168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_23
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 484
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d592f637aba64f40800000000000000
+      internalID: 5712441912035808725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_24
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 484
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996f0ec1f87c249d0800000000000000
+      internalID: -2791449401537530215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_25
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 484
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a923fdd684ae500800000000000000
+      internalID: 426232751473203781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_26
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 484
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d00d2de2b610bcb0800000000000000
+      internalID: -4850351840938884910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_27
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 484
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fecf25def821471a0800000000000000
+      internalID: -6812799926933455633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_28
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 484
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c38d6de450213520800000000000000
+      internalID: 2679958802394874822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_29
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 484
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48de95c20eb20a80800000000000000
+      internalID: -8502024227407341491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_30
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 430
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9fe391f2b652570800000000000000
+      internalID: 8441270926607055286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_31
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 430
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1845d87379fd0da80800000000000000
+      internalID: -8444003460754615167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 31
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 425
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd1c47af0d576620800000000000000
+      internalID: 2767282817855135198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 425
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf5fa1e32b1764c0800000000000000
+      internalID: -4294433878750306385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 425
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a0835f5f8848a70800000000000000
+      internalID: 8828331759515470449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_35
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 425
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f6a5558a7dd8fe0800000000000000
+      internalID: -1185054008942104715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_36
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 424
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7087339e73eaa390800000000000000
+      internalID: -7806176871318060934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 41
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 367
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d6fdc0907365c10800000000000000
+      internalID: 2041879993069301018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 42
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 369
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b41eb4f44199fc0800000000000000
+      internalID: -3487734105613710577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 43
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 374
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c56c74408a1ba740800000000000000
+      internalID: 5164250535917544903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 44
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 375
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc743c2e94e06270800000000000000
+      internalID: 8241838686085610702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 45
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 369
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2caf5ed50f61871f0800000000000000
+      internalID: -1047061691740325182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 46
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 367
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93e46d11f26e9200800000000000000
+      internalID: 188697022115931039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 47
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 367
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7553a5904f12706c0800000000000000
+      internalID: -4177332797350202025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 367
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06ce666fd6fa8690800000000000000
+      internalID: -7598989981877615092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 49
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 367
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd296285d64d9ca0800000000000000
+      internalID: -6008568445012464129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 367
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4df48399ccc43e0800000000000000
+      internalID: -2068053170423081734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_47
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 309
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66015583d3747e010800000000000000
+      internalID: 1218020552490684518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_48
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 309
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6d1d910c32cfda0800000000000000
+      internalID: -5909809303043057983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 61
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 309
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c07611f15810d50800000000000000
+      internalID: 6701784088986455071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 62
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 309
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50c61781b9cee5f0800000000000000
+      internalID: -725420725647261603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 63
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 309
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a56a2c0ed240740800000000000000
+      internalID: 5117265519961332349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 64
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 309
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4737cbded53b987b0800000000000000
+      internalID: -5221445076957498508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 65
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 309
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbf350b7ac6abd30800000000000000
+      internalID: 4447987049455418318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 66
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 307
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7599a690344e0eb0800000000000000
+      internalID: -4751785581352479362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 67
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 309
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf3792a1c0148a20800000000000000
+      internalID: 3063592070361333677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 68
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 309
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90cc6c20818eab7d0800000000000000
+      internalID: -2901751820063421431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_57
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 318
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf59b71cbda20a080800000000000000
+      internalID: -9178288917248764421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_58
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 248
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bed9c60f2fc6bd50800000000000000
+      internalID: 6752812492172943025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_59
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 248
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f4d5fc7510baaa0800000000000000
+      internalID: -6148819389591498974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_60
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 248
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6fc1b9d8ad72620800000000000000
+      internalID: 2749406399260587757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_61
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 248
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310e31995a46ec2b0800000000000000
+      internalID: -5562397827355385837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_62
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 248
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5573a5075063cd310800000000000000
+      internalID: 1431078178584672085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_63
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 254
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3819ee069b7aaa2c0800000000000000
+      internalID: -4419535669673684605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_64
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 254
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71cef966b8fbe85e0800000000000000
+      internalID: -1905374986888025065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_65
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 254
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c77d0b92682ff830800000000000000
+      internalID: 4107045789158438851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_66
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 254
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bbec90997a727a0800000000000000
+      internalID: -6401964069547492574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_67
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 189
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd72107969e3abc0800000000000000
+      internalID: -3772915423745245704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_68
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 193
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa92a3d25c5af230800000000000000
+      internalID: 3673349956881783467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_69
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 196
+        width: 39
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1eef956040d8a40800000000000000
+      internalID: 5371954355849060856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_70
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 200
+        width: 41
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d50287b3fc2c2f0800000000000000
+      internalID: -953972316723716805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_71
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 200
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9860452556d68d7d0800000000000000
+      internalID: -2893442478645180791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_72
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 195
+        width: 42
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b4b812d2767e140800000000000000
+      internalID: 4748877775619443546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_73
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 187
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7537820fc802630800000000000000
+      internalID: 3900272240401536960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_74
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 187
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ceae8b250a3309c0800000000000000
+      internalID: -3962259453275885879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_75
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 187
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4246cb517670cfba0800000000000000
+      internalID: -6053955659765095388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_76
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 187
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2bd17f34a7f4a70800000000000000
+      internalID: 8813397428114666199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_77
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 187
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278c4c3a0227024c0800000000000000
+      internalID: -4314322958508832654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_78
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 187
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47cc89b6755223f30800000000000000
+      internalID: 4553743230622551156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 71
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 133
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632e4a133eb8209b0800000000000000
+      internalID: -5115372418832735690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 72
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 132
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eecff014d4d9fd20800000000000000
+      internalID: 3312913008191065826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 73
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 132
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e989d585eb2d062c0800000000000000
+      internalID: -4440317517619160930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 74
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 133
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d94c8184dad8550800000000000000
+      internalID: 6164773990104866117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 75
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 136
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17beeb092cdc3f9a0800000000000000
+      internalID: -6200386026423260303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 76
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 134
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47bb664544dec4d0800000000000000
+      internalID: -3112316898467137718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 77
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 132
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433045acd7fd49f40800000000000000
+      internalID: 5734453956907893556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 78
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 132
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ae8b25666d9df10800000000000000
+      internalID: 2295101220084837004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 79
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 133
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701588ec280838ee0800000000000000
+      internalID: -1260022171434462969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 80
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 136
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f0c51a66454b0b0800000000000000
+      internalID: -5713849227455754430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_89
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 78
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a264733deed6cda40800000000000000
+      internalID: 5394307326196270634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_90
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 78
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f61fd8eaf6f771d0800000000000000
+      internalID: -3352939840044853512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_91
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 78
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd54c2ab9da39ec0800000000000000
+      internalID: -3561311996357616165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_92
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 57
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c054203ab5c3d5b0800000000000000
+      internalID: -5344710929296371520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_93
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 70
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f32633334d18a20800000000000000
+      internalID: 3062962537959145295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_94
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 78
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a7a7eb6164b6bf0800000000000000
+      internalID: -330093084182676853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_95
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 83
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a82101094023640800000000000000
+      internalID: 5058110348281940594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_96
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 87
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a4d5cba2967cf30800000000000000
+      internalID: 4595757577024653945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_97
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 88
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c283ebbdbdd530870800000000000000
+      internalID: 8647858908347381804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_98
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 86
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8a257841eaf8a60800000000000000
+      internalID: 7678547292882905264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_99
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 15
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752d9ceffb79825d0800000000000000
+      internalID: -3087050693693287849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_100
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 15
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85348bd49199a97c0800000000000000
+      internalID: -4063767379791297704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeKnight_2_101
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 15
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3342783ecc8824c0800000000000000
+      internalID: -4312041825869085893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
