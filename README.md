@@ -104,9 +104,9 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 ![Backlog_6](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint2Documents/sprint2.6.png)
 
 - **Ürün Durumu**: Ekran görüntüleri:
-  ![Screenshot 1](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint2Documents/AnaMenu.png)
-  ![Screenshot 2](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint2Documents/KontrolPaneli.png)
-  ![Screenshot 2](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint2Documents/GirisEkrani.png)
+  ![Screenshot 1](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint2Documents/AnaMenu.PNG)
+  ![Screenshot 2](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint2Documents/KontrolPaneli.PNG)
+  ![Screenshot 3](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint2Documents/GirisEkrani.PNG)
 
 - **Sprint Review**: 
 Alınan kararlar: Oyunun mekanları belirlendi. Mekanlar Castle, Forrest, Cave, Village olarak belirlendi. Mekanlar herbir ekip üyesine atandı. Karakterlerin mekanikleri yapıldı. App için gerekli kontrol butonları eklendi. Ana karekterin can barı eklendi. Ayrıca oyun giriş ekranı tasarlandı ve yapıldı. Sprint Review katılımcıları: Batuhan Sedat KOLBAŞ, Merve ŞAHAN, Beyza Zeynep TOPÇU, Orkun DEMİRCİ, Şekufe KALKAN
