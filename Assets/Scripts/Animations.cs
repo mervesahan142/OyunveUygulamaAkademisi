@@ -25,11 +25,11 @@ public class Animations : MonoBehaviour
     }
 
     public void TakeDamage(Animator anim){
-
+        anim.SetTrigger("TakeDamage");
     }
 
     public void Dead(Animator anim){
-
+        anim.SetTrigger("Dead");
     }
 
     public void ClearAnimationGroupA(Animator anim){
@@ -46,8 +46,28 @@ public class Animations : MonoBehaviour
         anim.SetBool("Defence", false);
     }
 
-    /*public void ClearCharAnimation(Animator anim){
-        anim.SetBool("isWalking", false);
-        anim.SetBool("Defence", false);
-    }*/
+    public void Jump(Animator anim){
+        anim.SetBool("isGrounded", false);
+        anim.SetTrigger("Jump");
+    }
+
+    public bool GetGrounded(Animator anim){
+        return anim.GetBool("isGrounded");
+    }
+
+    public void Ground(Animator anim){
+        anim.SetBool("isGrounded", true);
+    }
+
+    public void NotGround(Animator anim){
+        anim.SetBool("isGrounded", false);
+    }
+
+    public void Dodge(Animator anim){
+        anim.SetTrigger("Dodge");
+    }
+
+    public void Repel(Animator anim){
+        anim.SetTrigger("isAttacked");
+    }
 }

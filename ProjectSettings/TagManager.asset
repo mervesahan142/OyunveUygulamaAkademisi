@@ -4,7 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Enemy
+  - EnemyGroup_A
+  - EnemyGroup_B
+  - FriendGroup_A
+  - FriendGroup_B
+  - EnemyFire
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -12,8 +17,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - EnemyLayer
+  - FriendLayer
   - 
   - 
   - 

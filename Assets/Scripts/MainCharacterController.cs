@@ -1,156 +1,310 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class MainCharacterController : MonoBehaviour
 {
-    Animations anim1 = new Animations();
-    bool isMoveRight, isMoveLeft, isAnimationFinished = true, isGrounded, isDodging;
-    public float characterMoveSpeed = 2f, characterDodgeSpeed = 4f;
-    public int attackLevel = 1, attackDamage;
-    int health = 100;
-    Animator anim;
-    BoxCollider2D rangeCollider;
+    public float characterMoveSpeed = 2f, characterDodgeSpeed = 4f ,attackRange = 0.5f;
+    public int attackLevel = 1;
+    public Transform attackPoint;
+    public LayerMask enemyLayers;
+
+    Animations anim = new Animations();
+    bool isSpeaking, isMovingRight, isMovingLeft, isAttacking, isGuarding, isJumping, isDodging, isGrounded, isTakingDamage, isDead, isAnimationFinished = true;
+    int health = 100, attackDamage = 1;
+    int spokeWithFreeKnight_1, spokeWithKnight, spokeWithWarrior, spokeWithKing;
+
+    GameObject speechButton, friendGameObject;
+
+    private void OnDrawGizmosSelected() {
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);  
+    }
     
     void Awake()
     {
-        //attackLevel = PlayerPrefs.GetInt("attackLevel");
+        /*spokeWithFreeKnight_1 = PlayerPrefs.GetInt("spokeWithFreeKnight_1");
+        spokeWithKnight = PlayerPrefs.GetInt("spokeWithKnight");
+        spokeWithWarrior = PlayerPrefs.GetInt("spokeWithWarrior");
+        spokeWithKing = PlayerPrefs.GetInt("spokeWithKing");
+
+        attackLevel = PlayerPrefs.GetInt("attackLevel");*/
+
+        speechButton = GameObject.Find("SpeechButton");
+        speechButton.SetActive(false);
+
         switch(attackLevel){
             case 1:
-                attackDamage = 50;
+                attackDamage = 25;
                 break;
             case 2:
-                attackDamage = 75;
+                attackDamage = 35;
                 break;
             case 3:
-                attackDamage = 100;
-                break;
-            default:
+                attackDamage = 45;
                 break;
         }
-        var colliders = GetComponents<BoxCollider2D>();
-        anim = GetComponent<Animator>();
-        rangeCollider =  colliders[1];
     }
 
-    // Start is called before the first frame update
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
-        //Defence
-        if(Input.GetKey("q")){
-            anim1.Defence(GetComponent<Animator>());
-        }else if(Input.GetKeyUp("q")){
-            anim1.NoDefence(GetComponent<Animator>());
+        if(!isSpeaking){
+            transform.Translate(new Vector3(Random.Range(-0.01f,0.01f),0,0));
+            if(!isTakingDamage && !isDead){
+                //Defence
+                if(isGuarding){
+                    anim.Defence(GetComponent<Animator>());
+                }else{
+                    anim.NoDefence(GetComponent<Animator>());
+                }
+                //walking
+                if(!isGuarding){
+                    if(Input.GetKey("d") || isMovingRight){
+                        transform.localScale = new Vector3(5,5,1);
+                        transform.position += new Vector3(characterMoveSpeed * Time.deltaTime,0,0);
+                        anim.Walk(GetComponent<Animator>());
+                    }else if(Input.GetKey("a") || isMovingLeft){
+                        transform.localScale = new Vector3(-5,5,1);
+                        transform.position -= new Vector3(characterMoveSpeed * Time.deltaTime,0,0);
+                        anim.Walk(GetComponent<Animator>());
+                    }else{
+                        anim.NotWalk(GetComponent<Animator>());
+                    }
+                }
+                else{
+                    anim.NotWalk(GetComponent<Animator>());
+                }
+                //attack
+                if((isAttacking && !isGuarding) && isAnimationFinished){
+                    isAnimationFinished = false;
+                    switch(attackLevel){
+                        case 1:
+                            anim.Attack_1(GetComponent<Animator>());
+                            Invoke("FinishAnimation",0.5f);
+                            break;
+                        case 2:
+                            anim.Attack_2(GetComponent<Animator>());
+                            Invoke("FinishAnimation",0.75f);
+                            break;
+                        case 3:
+                            anim.Attack_3(GetComponent<Animator>());
+                            Invoke("FinishAnimation",0.85f);
+                            break;
+                        default:
+                            break;
+                    }
+                    //attack to enemy
+                    Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position,attackRange,enemyLayers);
+                    foreach(Collider2D enemy in hitEnemies){
+                        if(enemy.tag == "EnemyGroup_A"){
+                            enemy.GetComponent<NPCManagerGroup_A>().TakeDamage(attackDamage,0,true);
+                        }else if(enemy.tag == "EnemyGroup_B"){
+                            enemy.GetComponent<NPCManagerGroup_B>().TakeDamage(attackDamage,0,true);
+                        }
+                        
+                    }
+                    isTakingDamage = false;
+                }
+                //Jump
+                if(isJumping && anim.GetGrounded(GetComponent<Animator>())){
+                    isGrounded = false;
+                    GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 6), ForceMode2D.Impulse);
+                    anim.Jump(GetComponent<Animator>());
+                }
+                //Dodge
+                if(isDodging && isAnimationFinished){
+                    isAnimationFinished = false;
+                    anim.Dodge(GetComponent<Animator>());
+                    Invoke("FinishAnimation",0.66f);
+                }
+                if(isDodging){
+                    if(transform.localScale.x > 0){
+                        transform.position += new Vector3(characterDodgeSpeed * Time.deltaTime,0,0);
+                    }else{
+                        transform.position -= new Vector3(characterDodgeSpeed * Time.deltaTime,0,0);
+                    }
+                }
+            }
         }
-        //walking
-        if(!Input.GetKey("q")){
-            if(Input.GetKey("d") || isMoveRight){
-                transform.localScale = new Vector3(5,5,1);
-                transform.position += new Vector3(characterMoveSpeed * Time.deltaTime,0,0);
-                anim1.Walk(GetComponent<Animator>());
-            }else if(Input.GetKey("a") || isMoveLeft){
-                transform.localScale = new Vector3(-5,5,1);
-                transform.position -= new Vector3(characterMoveSpeed * Time.deltaTime,0,0);
-                anim1.Walk(GetComponent<Animator>());
+    }
+
+    void OnCollisionEnter2D(Collision2D other){
+        if(other.gameObject.tag == "EnemyFire"){
+            health = health - other.gameObject.GetComponent<Fire>().damage;
+            if(isGuarding){
+                anim.Repel(GetComponent<Animator>());
             }else{
-                anim1.NotWalk(GetComponent<Animator>());
+                anim.TakeDamage(GetComponent<Animator>());
             }
         }
-        else{
-            anim1.NotWalk(GetComponent<Animator>());
+        if(other.gameObject.tag == "Ground"){
+            isGrounded = true;
+            anim.Ground(GetComponent<Animator>());
         }
-        //attack
-        if(Input.GetKeyDown("e") && !Input.GetKey("q") && isAnimationFinished){
-            switch(attackLevel){
-                case 1:
-                    anim1.Attack_1(GetComponent<Animator>());
-                    Invoke("FinishAnimation",0.5f);
+    }
+
+    void OnCollisionExit2D(Collision2D other){
+        if(other.gameObject.tag == "Ground"){
+            isGrounded = false;
+            anim.NotGround(GetComponent<Animator>());
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D other){
+        if(other.tag == "FriendGroup_A"){
+            switch(other.name){
+                case "FreeKnight_1":
+                    if(spokeWithFreeKnight_1 == 0){
+                        speechButton.SetActive(true);
+                        friendGameObject = other.gameObject;
+                    }
                     break;
-                case 2:
-                    anim1.Attack_2(GetComponent<Animator>());
-                    Invoke("FinishAnimation",0.75f);
+                case "Knight":
+                    if(spokeWithKnight == 0){
+                        speechButton.SetActive(true);
+                        friendGameObject = other.gameObject;
+                    }
                     break;
-                case 3:
-                    anim1.Attack_3(GetComponent<Animator>());
-                    Invoke("FinishAnimation",0.85f);
+                case "Warrior":
+                    if(spokeWithWarrior == 0){
+                        speechButton.SetActive(true);
+                        friendGameObject = other.gameObject;
+                    }
                     break;
-                default:
+                case "King":
+                    if(spokeWithKing == 0){
+                        speechButton.SetActive(true);
+                        friendGameObject = other.gameObject;
+                    }
                     break;
             }
-            /*anim.SetBool("isWalking", false);
-            isAnimationFinished = false;
-            switch(attackLevel){
-                case 1:
-                    anim.SetTrigger("Attack_1");
-                    Invoke("FinishAnimation",0.5f);
-                    break;
-                case 2:
-                    anim.SetTrigger("Attack_2");
-                    Invoke("FinishAnimation",0.75f);
-                    break;
-                case 3:
-                    anim.SetTrigger("Attack_3");
-                    Invoke("FinishAnimation",0.85f);
-                    break;
-                default:
-                    break;
-            }*/
         }
-        //Jump
-        if(Input.GetKeyDown("w") && isGrounded/*anim.GetBool("isGrounded");*/){
-            anim.SetBool("isGrounded", false);
-            anim.SetTrigger("Jump");
-        }
-        //Dodge
-        if(Input.GetKeyDown("s") && isAnimationFinished){
-            isAnimationFinished = false;
-            isDodging = true;
-            anim.SetTrigger("Dodge");
-            Debug.Log(transform.localScale.x);
-            Invoke("FinishAnimation",0.66f);
-        }
-        if(isDodging){
-            if(transform.localScale.x > 0){
-                transform.position += new Vector3(characterDodgeSpeed * Time.deltaTime,0,0);
-            }else{
-                transform.position -= new Vector3(characterDodgeSpeed * Time.deltaTime,0,0);
-            }
+    }
+
+    void OnTriggerExit2D(Collider2D other){
+        if(other.tag == "FriendGroup_A"){
+            speechButton.SetActive(false);
         }
     }
 
     void FinishAnimation(){
         isAnimationFinished = true;
         isDodging = false;
+        isAttacking = false;
     }
-
-    void OnTriggerEnter2D(Collider2D collider)
-    {
-        if (collider.IsTouching(rangeCollider) && collider.gameObject.tag == "Enemy")
-        {
-            collider.GetComponent<NPCManagerGroup_A>().health = collider.GetComponent<NPCManagerGroup_A>().health - attackDamage;
-            Debug.Log("Can : " + collider.GetComponent<NPCManagerGroup_A>().health);
+    
+    int enemyAttackDamage = 0;
+    public void TakeDamage(int attackDamage, float attackTime, bool isByChar){
+        if(!isDead && !isTakingDamage){
+            Invoke("ShowDamageAnim", attackTime);
+            enemyAttackDamage = attackDamage;
+            isTakingDamage = true;
         }
     }
 
+    void ShowDamageAnim(){
+        if(isTakingDamage){
+            if(isGuarding){
+                anim.Repel(GetComponent<Animator>());
+            }else{
+                health = health - enemyAttackDamage;
+                Debug.Log(health);
+                if(health > 0){
+                    anim.TakeDamage(GetComponent<Animator>());
+                }else{
+                    anim.Dead(GetComponent<Animator>());
+                    isDead = true;
+                }
+            }
+            isTakingDamage = false;
+        }
+    }
+
+    void Die(){
+        isDead = true;
+        anim.Dead(GetComponent<Animator>());
+    }
+
     /*--------------BUTTONS------------------*/
-    public void MoveRight(){
-        isMoveRight = true;
-        isMoveLeft = false;
+    public void Speak(){
+        isSpeaking = true;
+        friendGameObject.GetComponent<NPCFriendAI>().Speak();
+        speechButton.SetActive(false);
     }
 
-    public void MoveLeft(){
-        isMoveRight = false;
-        isMoveLeft = true;
+    public void FinishSpeech(string friendName){
+        isSpeaking = false;
+        switch(friendName){
+            case "FreeKnight_1":
+                spokeWithFreeKnight_1 = 1;
+                //PlayerPrefs.SetInt("spokeWithFreeKnight_1",1);
+                break;
+            case "Knight":
+                spokeWithKnight = 1;
+                //PlayerPrefs.SetInt("Knight",1);
+                break;
+            case "Warrior":
+                spokeWithWarrior = 1;
+                //PlayerPrefs.SetInt("Warrior",1);
+                break;
+            case "King":
+                spokeWithKing = 1;
+                //PlayerPrefs.SetInt("King",1);
+                break;
+        }
+        speechButton.SetActive(false);
     }
 
-    public void StopMoving(){
-        isMoveRight = false;
-        isMoveLeft = false;
+    public void RightButtonDown(){
+        isMovingRight = true;
+        isMovingLeft = false;
+    }
+
+    public void LeftButtonDown(){
+        isMovingRight = false;
+        isMovingLeft = true;
+    }
+
+    public void HorizontalButtonsUp(){
+        isMovingRight = false;
+        isMovingLeft = false;
+    }
+
+    public void GuardButtonDown(){
+        isGuarding = true;
+    }
+
+    public void GuardButtonUp(){
+        isGuarding = false;
+    }
+
+    public void AttackButtonDown(){
+        isAttacking = true;
+    }
+
+    public void AttackButtonUp(){
+        isAttacking = false;
+    }
+
+    public void JumpButtonDown(){
+        isJumping = true;
+    }
+
+    public void JumpButtonUp(){
+        isJumping = false;
+    }
+
+    public void DodgeButtonDown(){
+        isDodging = true;
+    }
+
+    public void DodgeButtonUp(){
+        isDodging = false;
     }
 }
