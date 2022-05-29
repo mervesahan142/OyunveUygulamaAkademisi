@@ -102,24 +102,28 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 ![Backlog_4](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint2Documents/sprint2.4.png)
 ![Backlog_5](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint2Documents/sprint2.5.png)
 ![Backlog_6](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint2Documents/sprint2.6.png)
-![Backlog_7](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint2Documents/sprint2.7.png)
 
 - **Ürün Durumu**: Ekran görüntüleri:
-  ![Screenshot 1]()
-  ![Screenshot 2]()
+  ![Screenshot 1](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint2Documents/AnaMenu.PNG)
+  ![Screenshot 2](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint2Documents/KontrolPaneli.PNG)
+  ![Screenshot 3](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint2Documents/GirisEkrani.PNG)
 
 - **Sprint Review**: 
-Alınan kararlar: 2D ve Open World bir oyun yapılması kararlaştırıldı. Önceden top-down olarak asset'ler belirlendi. Fakat asset bulma konusunda sıkıntı çektiğimiz için platform olarak oyunu yapmaya karar verdik. Buna göre asset'ler seçildi. Android app olarak oyunu çıkarmaya karar verdik. Bu sprint'te main ve NPC karakterler oluşturuldu. Oyunun senaryosu bu sprint'te geliştirilmeye başlandı. Sprint Review katılımcıları: Batuhan Sedat KOLBAŞ, Merve ŞAHAN, Beyza Zeynep TOPÇU, Orkun DEMİRCİ, Şekufe KALKAN
+Alınan kararlar: Oyunun mekanları belirlendi. Mekanlar Castle, Forrest, Cave, Village olarak belirlendi. Mekanlar herbir ekip üyesine atandı. Karakterlerin mekanikleri yapıldı. App için gerekli kontrol butonları eklendi. Ana karekterin can barı eklendi. Ayrıca oyun giriş ekranı tasarlandı ve yapıldı. Sprint Review katılımcıları: Batuhan Sedat KOLBAŞ, Merve ŞAHAN, Beyza Zeynep TOPÇU, Orkun DEMİRCİ, Şekufe KALKAN
 
 - **Sprint Retrospective:**
-  - Takım içindeki bireysel sorumlulukların arttırılması ile ilgili düzenleme yapılması kararı alınmıştır.
-  - Tahmin puanları gözden geçirildikten sonra bu sprint'te hedeflenen puana ulaşılamadığı fark edildiği için bir sonraki sprint planlaması toplantısında puan dağılımının daha uygulanabilir hedefler konmasına karar verilmiştir.
+- **Olumlu Gelişmeler:**
+  - Sprint 1'de alınan bireysel sorumlulukların arttırılması kararına göre, herkese ait görev dağılımı yapıldı.
+  - Sprint 2'de backlog'lar güncellenerek daha sistematik ilerlendi ve hedeflenen puana ulaşıldı.
+  - Ekip içinde herkesin fikri dikkate alınarak kararlar alındı ve ilerleme sağlandı.
+- **İyileştirilecek Kararlar:** 
+  - Zaman yönetimini güçlendirmeye dair kararlar alınmalı.
+  - Sprint 1'de belirlenen toplantı günleri ve saatine titizlikle uyulmalı.
+  - Ekip arasındaki iletişim güçlendirilmeli. Daily scrum'lara önem verilmeli.
   - Oyun için ayrılan efor/saat arttırılmalı.
 
 -**Diğer Notlar**:
-- [Link to APK]()
 - [Link to story](https://docs.google.com/document/d/1qeP6IqIVlxglghG1ofAf2P7BxvNAaVSftV7PXGu6gaM/edit?usp=sharing)
-
 
 ---
 
