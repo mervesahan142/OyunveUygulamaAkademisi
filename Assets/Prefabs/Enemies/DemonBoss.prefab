@@ -196,6 +196,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterMoveSpeed: 2
   attackRange: 0.8
+  xpPoint: 100
   attackDamage: 19000000
   attackPoint: {fileID: 513520948122528719}
   groundDetection: {fileID: 779068145090820276}

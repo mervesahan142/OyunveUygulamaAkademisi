@@ -196,13 +196,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterMoveSpeed: 2
   attackRange: 1.5
+  xpPoint: 200
   attackDamage: 1900000023000000
   attackPoint: {fileID: 4419783517196184005}
   groundDetection: {fileID: 544180365994977669}
   attackLayers:
     serializedVersion: 2
     m_Bits: 128
-  health: 100
+  health: 200
+  foods:
+  - {fileID: 1997861236836095625, guid: e8cc5df2e9e1f9b49aeb87c2722dec88, type: 3}
+  - {fileID: 3178629949577165527, guid: d49123b10a114f44ca8e2e02216351cf, type: 3}
+  - {fileID: 7237263939581746136, guid: 83df9cf60fd29b84fb635207aa772d4b, type: 3}
+  - {fileID: 6754081531157570653, guid: 5c17905f2abafe5418a41d78ee351f2f, type: 3}
 --- !u!114 &7382144105684835157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -215,7 +221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 967f09c52d366f34c917a28250c90f78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRateTime: 2
+  attackRateTime: 1.5
 --- !u!1 &6595908945418848721
 GameObject:
   m_ObjectHideFlags: 0

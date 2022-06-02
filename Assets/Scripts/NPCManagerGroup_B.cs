@@ -4,25 +4,28 @@ using UnityEngine;
 
 public class NPCManagerGroup_B : MonoBehaviour
 {
-    public float characterMoveSpeed = 2f, fireTime = 0, firePosX = 0, firePosY = 0;
+    public float characterMoveSpeed = 2f, fireTime = 0, firePosX = 0, firePosY = 0, xpPoint = 0;
     public int health = 100;
     public GameObject fire;
     public Transform groundDetection;
+    public GameObject[] foods = new GameObject[4];
 
     bool isFriend, isActive, isDead, isTakingDamage, isAttacking, isIdle, isPatroling, isMovingRight = true;
     Animations animations = new Animations();
     float deadTime = 0, halfAttack_1Time = 0;
     
+    string gameObjectName;
     void Awake() {
-        if(gameObject.name == "FreeKnight_1" || gameObject.name == "FreeKnight_2" || gameObject.name == "HeavyBandit" || gameObject.name == "King" || gameObject.name == "Knight" || gameObject.name == "LightBandit" || gameObject.name == "Warrior"){
+        gameObjectName = gameObject.name.Substring(0,gameObject.name.Length - 4);
+        if(gameObjectName == "FreeKnight_1" || gameObjectName == "FreeKnight_2" || gameObjectName == "HeavyBandit" || gameObjectName == "King" || gameObjectName == "Knight" || gameObjectName == "LightBandit" || gameObjectName == "Warrior"){
             isFriend = true;
-            //Debug.Log(gameObject.name + " is Friend");
+            //Debug.Log(gameObjectName + " is Friend");
         }
         foreach(AnimationClip clip in GetComponent<Animator>().runtimeAnimatorController.animationClips)
         {
-            if(clip.name == gameObject.name + "_Dead"){
+            if(clip.name == gameObjectName + "_Dead"){
                 deadTime = clip.length;
-            }else if(clip.name == gameObject.name + "_Attack_1"){
+            }else if(clip.name == gameObjectName + "_Attack_1"){
                 halfAttack_1Time = clip.length / 2;
             }
         }
@@ -148,6 +151,9 @@ public class NPCManagerGroup_B : MonoBehaviour
                 }else{
                     isDead = true;
                     Invoke("Die", deadTime);
+                    if(isByChar){
+                        Camera.main.GetComponent<SkillManagerandUI>().EarnXp((int)xpPoint);
+                    }
                 }
             }
         }
@@ -159,13 +165,30 @@ public class NPCManagerGroup_B : MonoBehaviour
     }
 
     void Die(){
-        
         animations.Dead(GetComponent<Animator>());
+        Camera.main.GetComponent<SkillManagerandUI>().EarnXp((int)xpPoint);
         foreach(AnimationClip clip in GetComponent<Animator>().runtimeAnimatorController.animationClips)
         {
-            if(clip.name == gameObject.name + "_Dead"){
+            if(clip.name == gameObjectName + "_Dead"){
                 Invoke("WaitDeadAnimation",clip.length + 0.1f);
                 break;
+            }
+        }
+        CreateFood();
+    }
+
+     void CreateFood(){
+        float state = Random.Range(0.0f,1.0f);
+        Debug.Log("state" + state);
+        if(state > 0.4f ){
+            if(state < 0.6f){
+                Instantiate(foods[0], transform.position, Quaternion.identity);
+            }else if(state < 0.7f){
+                Instantiate(foods[1], transform.position, Quaternion.identity);
+            }else if(state < 0.8f){
+                Instantiate(foods[2], transform.position, Quaternion.identity);
+            }else if(state < 1f){
+                Instantiate(foods[3], transform.position, Quaternion.identity);
             }
         }
     }

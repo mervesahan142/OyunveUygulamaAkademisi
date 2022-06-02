@@ -15,18 +15,17 @@ public class NPCFriendAI : MonoBehaviour
     public string[] heroWords;
     int speechController = 0;
 
-    GameObject speechArea;
+    public GameObject speechArea;
     public Text text;
 
     void Awake(){
         hero = GameObject.Find("Hero");
-        speechArea = GameObject.Find("SpeechArea");
         speechArea.SetActive(false);
     }
 
     void Start()
     {
-        PatrolAI();
+        //PatrolAI();
     }
 
     void Update()
@@ -34,9 +33,8 @@ public class NPCFriendAI : MonoBehaviour
 
     }
 
-    void PatrolAI(){
-        float state = Random.Range(0,2);
-        if(state > 0.5f){
+    /*void PatrolAI(){
+        if(Random.Range(0,2) > 0.5f){
             GetComponent<NPCManagerGroup_A>().Patrol();
             isPatroling = true;
             isIdle = false;
@@ -51,21 +49,21 @@ public class NPCFriendAI : MonoBehaviour
         if(!isActive){
             Invoke("PatrolAI", Random.Range(1,4));
         }
-    }
+    }*/
 
     void OnCollisionEnter2D(Collision2D other) {
-        if(!isActive && (other.gameObject.tag == "Player" || other.gameObject.tag == "friendGroup_A")){
-            CancelInvoke("PatrolAI");
-            PatrolAI();
+        /*if(!isActive && (other.gameObject.tag == "Player" || other.gameObject.tag == "FriendGroup_A")){
+            //CancelInvoke("PatrolAI");
+            //PatrolAI();
             GetComponent<NPCManagerGroup_A>().Flip();
-        }
+        }*/
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.tag == "EnemyGroup_A" || other.tag == "EnemyGroup_B"){
             isActive = true;
             GetComponent<NPCManagerGroup_A>().BeActive();
-            CancelInvoke("PatrolAI");
+            //CancelInvoke("PatrolAI");
         }
     }
 
@@ -102,13 +100,12 @@ public class NPCFriendAI : MonoBehaviour
             isActive = false;
             friendTransform = null;
             GetComponent<NPCManagerGroup_A>().BeNotActive();
-            Invoke("PatrolAI",Random.Range(0,5));
+            //Invoke("PatrolAI",Random.Range(0,5));
         }
     }
 
     public void Speak(){
         GetComponent<NPCManagerGroup_A>().Speak();
-        //Invoke("FinishSpeech",3f);
         speechArea.SetActive(true);
         ManageSpeak();
     }

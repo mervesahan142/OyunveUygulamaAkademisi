@@ -6,10 +6,11 @@ using UnityEngine.UI;
 
 public class MainCharacterController : MonoBehaviour
 {
-    public float characterMoveSpeed = 2f, characterDodgeSpeed = 4f ,attackRange = 0.5f;
-    public int attackLevel = 1;
+    public float characterMoveSpeed = 2f, characterDodgeSpeed = 2f ,attackRange = 0.5f;
+    public int attackLevel = 1, enduranceLevel = 1;
     public Transform attackPoint;
     public LayerMask enemyLayers;
+    public GameObject[] foods = new GameObject[4];
 
     Animations anim = new Animations();
     bool isSpeaking, isMovingRight, isMovingLeft, isAttacking, isGuarding, isJumping, isDodging, isGrounded, isTakingDamage, isDead, isAnimationFinished = true;
@@ -17,20 +18,26 @@ public class MainCharacterController : MonoBehaviour
     int spokeWithFreeKnight_1, spokeWithKnight, spokeWithWarrior, spokeWithKing;
 
     GameObject speechButton, friendGameObject;
+    Image healthBar;
 
     private void OnDrawGizmosSelected() {
-        Gizmos.DrawWireSphere(attackPoint.position, attackRange);  
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
     
     void Awake()
     {
-        /*spokeWithFreeKnight_1 = PlayerPrefs.GetInt("spokeWithFreeKnight_1");
+        spokeWithFreeKnight_1 = PlayerPrefs.GetInt("spokeWithFreeKnight_1");
         spokeWithKnight = PlayerPrefs.GetInt("spokeWithKnight");
         spokeWithWarrior = PlayerPrefs.GetInt("spokeWithWarrior");
         spokeWithKing = PlayerPrefs.GetInt("spokeWithKing");
 
-        attackLevel = PlayerPrefs.GetInt("attackLevel");*/
+        attackLevel = PlayerPrefs.GetInt("attackLevel");
+        enduranceLevel = PlayerPrefs.GetInt("enduranceLevel");
+        characterMoveSpeed = PlayerPrefs.GetInt("moveSpeedLevel") + 1;
+        characterDodgeSpeed = PlayerPrefs.GetInt("dodgeSpeedLevel") * 2;
+        attackRange = PlayerPrefs.GetInt("attackRangeLevel") / 3f;
 
+        healthBar = GameObject.Find("HealthBar").GetComponent<Image>();
         speechButton = GameObject.Find("SpeechButton");
         speechButton.SetActive(false);
 
@@ -102,12 +109,14 @@ public class MainCharacterController : MonoBehaviour
                     //attack to enemy
                     Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position,attackRange,enemyLayers);
                     foreach(Collider2D enemy in hitEnemies){
-                        if(enemy.tag == "EnemyGroup_A"){
-                            enemy.GetComponent<NPCManagerGroup_A>().TakeDamage(attackDamage,0,true);
-                        }else if(enemy.tag == "EnemyGroup_B"){
-                            enemy.GetComponent<NPCManagerGroup_B>().TakeDamage(attackDamage,0,true);
+                        if(Mathf.Abs(enemy.transform.position.x - transform.position.x) < attackRange * 5){
+                            if(enemy.tag == "EnemyGroup_A"){
+                                enemy.GetComponent<NPCManagerGroup_A>().TakeDamage(attackDamage,0,true);
+                            }else if(enemy.tag == "EnemyGroup_B"){
+                                Debug.Log("ierdeeded");
+                                enemy.GetComponent<NPCManagerGroup_B>().TakeDamage(attackDamage,0,true);
+                            }
                         }
-                        
                     }
                     isTakingDamage = false;
                 }
@@ -136,16 +145,52 @@ public class MainCharacterController : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other){
         if(other.gameObject.tag == "EnemyFire"){
-            health = health - other.gameObject.GetComponent<Fire>().damage;
+            /*health = health - other.gameObject.GetComponent<Fire>().damage;
+            healthBar.rectTransform.sizeDelta = new Vector2(2.7f * health, 27.2155f);*/
             if(isGuarding){
                 anim.Repel(GetComponent<Animator>());
             }else{
-                anim.TakeDamage(GetComponent<Animator>());
+                TakeDamage(other.gameObject.GetComponent<Fire>().damage, 0, false);
+                //anim.TakeDamage(GetComponent<Animator>());
             }
         }
         if(other.gameObject.tag == "Ground"){
             isGrounded = true;
             anim.Ground(GetComponent<Animator>());
+        }
+        switch(other.gameObject.tag){
+            case "Apple":
+                health = health + 20;
+                if(health > 100){
+                    health = 100;
+                }
+                healthBar.rectTransform.sizeDelta = new Vector2(2.7f * health, 27.2155f);
+                other.gameObject.SetActive(false);
+                break;
+            case "Cheese":
+                health = health + 25;
+                if(health > 100){
+                    health = 100;
+                }
+                healthBar.rectTransform.sizeDelta = new Vector2(2.7f * health, 27.2155f);
+                other.gameObject.SetActive(false);
+                break;
+            case "Meat":
+                health = health + 40;
+                if(health > 100){
+                    health = 100;
+                }
+                healthBar.rectTransform.sizeDelta = new Vector2(2.7f * health, 27.2155f);
+                other.gameObject.SetActive(false);
+                break;
+            case "Drink":
+                health = health + 10;
+                if(health > 100){
+                    health = 100;
+                }
+                healthBar.rectTransform.sizeDelta = new Vector2(2.7f * health, 27.2155f);
+                other.gameObject.SetActive(false);
+                break;
         }
     }
 
@@ -203,7 +248,7 @@ public class MainCharacterController : MonoBehaviour
     public void TakeDamage(int attackDamage, float attackTime, bool isByChar){
         if(!isDead && !isTakingDamage){
             Invoke("ShowDamageAnim", attackTime);
-            enemyAttackDamage = attackDamage;
+            enemyAttackDamage = (int)attackDamage / enduranceLevel;
             isTakingDamage = true;
         }
     }
@@ -214,7 +259,7 @@ public class MainCharacterController : MonoBehaviour
                 anim.Repel(GetComponent<Animator>());
             }else{
                 health = health - enemyAttackDamage;
-                Debug.Log(health);
+                healthBar.rectTransform.sizeDelta = new Vector2(2.7f * health, 27.2155f);
                 if(health > 0){
                     anim.TakeDamage(GetComponent<Animator>());
                 }else{
@@ -229,6 +274,14 @@ public class MainCharacterController : MonoBehaviour
     void Die(){
         isDead = true;
         anim.Dead(GetComponent<Animator>());
+    }
+
+    public void UpdateSkills(){
+        attackLevel = PlayerPrefs.GetInt("attackLevel");
+        enduranceLevel = PlayerPrefs.GetInt("enduranceLevel");
+        characterMoveSpeed = PlayerPrefs.GetInt("moveSpeedLevel") + 1;
+        characterDodgeSpeed = PlayerPrefs.GetInt("dodgeSpeedLevel") * 2;
+        attackRange = PlayerPrefs.GetInt("attackRangeLevel") / 2f;
     }
 
     /*--------------BUTTONS------------------*/

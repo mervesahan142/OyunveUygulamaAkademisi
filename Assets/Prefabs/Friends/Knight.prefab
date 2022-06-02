@@ -262,7 +262,7 @@ MonoBehaviour:
   attackLayers:
     serializedVersion: 2
     m_Bits: 64
-  health: 100
+  health: 200
 --- !u!114 &-4723488798022982054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -275,4 +275,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9537f76554a4564fac7f1ec1f2f840d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRateTime: 2
+  attackRateTime: 1.5
+  friendWords: []
+  heroWords: []
+  speechArea: {fileID: 0}
+  text: {fileID: 0}
