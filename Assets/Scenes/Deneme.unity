@@ -191,6 +191,44 @@ PrefabInstance:
       propertyPath: text
       value: 
       objectReference: {fileID: 546205412}
+    - target: {fileID: -7912430723808875028, guid: b03ce263b7bdf9c4f8d82e9bc5d0d68e, type: 3}
+      propertyPath: heroWords.Array.data[0]
+      value: "Merhaba,benim hikayem inan\u0131lmas\u0131 g\xFC\xE7 bir hikaye.Uzak
+        diyarlardan de\u011Fil,bulundu\u011Funuz zamana hi\xE7 de yak\u0131n olmayan
+        bir gelecekten geliyorum.Halk\u0131m ya\u015Fam\u0131n\u0131 s\xFCrd\xFCrebilmek
+        i\xE7in Alexandrite'e muhta\xE7,ihtiyac\u0131m\u0131z olan\u0131 aramaya
+        geldim."
+      objectReference: {fileID: 0}
+    - target: {fileID: -7912430723808875028, guid: b03ce263b7bdf9c4f8d82e9bc5d0d68e, type: 3}
+      propertyPath: heroWords.Array.data[1]
+      value: "Amac\u0131ma giden yolda bana yard\u0131m\u0131 dokunacak bilge ki\u015Filiklere
+        ihtiyac\u0131m var,yol g\xF6sterici olursan\u0131z benim de size yard\u0131mlar\u0131m
+        dokunabilir.Niyetiniz dalga ge\xE7mekse,g\xF6lge etmeyin ba\u015Fka ihsan
+        istemem!"
+      objectReference: {fileID: 0}
+    - target: {fileID: -7912430723808875028, guid: b03ce263b7bdf9c4f8d82e9bc5d0d68e, type: 3}
+      propertyPath: heroWords.Array.data[2]
+      value: "Yard\u0131m\u0131n\u0131z i\xE7in minnettar\u0131m. Kim bilir,belki
+        de yollar\u0131m\u0131z bir daha kesi\u015Fir..."
+      objectReference: {fileID: 0}
+    - target: {fileID: -7912430723808875028, guid: b03ce263b7bdf9c4f8d82e9bc5d0d68e, type: 3}
+      propertyPath: friendWords.Array.data[0]
+      value: "Merhaba gen\xE7 sava\u015F\xE7\u0131, uzak diyarlardan bir yolcu gibisin.Otur,soluklan
+        ve seni buraya getiren sebep nedir anlat."
+      objectReference: {fileID: 0}
+    - target: {fileID: -7912430723808875028, guid: b03ce263b7bdf9c4f8d82e9bc5d0d68e, type: 3}
+      propertyPath: friendWords.Array.data[1]
+      value: "Sen de iksirlerle kafay\u0131 bozmu\u015F b\xFCy\xFCc\xFClerden misin
+        yoksa? (G\xFClerek)"
+      objectReference: {fileID: 0}
+    - target: {fileID: -7912430723808875028, guid: b03ce263b7bdf9c4f8d82e9bc5d0d68e, type: 3}
+      propertyPath: friendWords.Array.data[2]
+      value: "Ani \xE7\u0131k\u0131\u015Flar\u0131n ve g\xF6zlerindeki par\u0131lt\u0131dan
+        ger\xE7ek bir sava\u015F\xE7\u0131 oldu\u011Funu anlad\u0131m evlat.Yine
+        de hen\xFCz \xE7ok toysun,geldi\u011Fin y\xF6nde devam et \xF6n\xFCne \xE7\u0131kan
+        engelleri a\u015F\u0131p,yeni bilgeler tan\u0131d\u0131\u011F\u0131n takdirde,hedefine
+        ula\u015Facaks\u0131n."
+      objectReference: {fileID: 0}
     - target: {fileID: 5915206605003392919, guid: b03ce263b7bdf9c4f8d82e9bc5d0d68e, type: 3}
       propertyPath: m_Name
       value: FreeKnight_1
@@ -373,6 +411,67 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4723488798022982054, guid: eae065d00a268364cad7626f5ab4bdfb, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 546205412}
+    - target: {fileID: -4723488798022982054, guid: eae065d00a268364cad7626f5ab4bdfb, type: 3}
+      propertyPath: attackRateTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4723488798022982054, guid: eae065d00a268364cad7626f5ab4bdfb, type: 3}
+      propertyPath: heroWords.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -4723488798022982054, guid: eae065d00a268364cad7626f5ab4bdfb, type: 3}
+      propertyPath: friendWords.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -4723488798022982054, guid: eae065d00a268364cad7626f5ab4bdfb, type: 3}
+      propertyPath: heroWords.Array.data[0]
+      value: "Tam da ihtiyac\u0131m olan \u015Feyle kar\u015F\u0131la\u015Fmak kaderin
+        cilvesi olsa gerek. Ko\u015Fullar\u0131n zor olaca\u011F\u0131n\u0131 biliyorum.
+        Halk\u0131m\u0131 tekrar refaha kavu\u015Fturmak i\xE7in elimden ne gerekiyorsa
+        yapmaya haz\u0131r\u0131m."
+      objectReference: {fileID: 0}
+    - target: {fileID: -4723488798022982054, guid: eae065d00a268364cad7626f5ab4bdfb, type: 3}
+      propertyPath: heroWords.Array.data[1]
+      value: "Dinlenmeye zaman ay\u0131raca\u011F\u0131m lakin \xF6ncelikle s\xF6yle
+        bana,ne gibi taktiklerdir bu bahsettiklerin?"
+      objectReference: {fileID: 0}
+    - target: {fileID: -4723488798022982054, guid: eae065d00a268364cad7626f5ab4bdfb, type: 3}
+      propertyPath: heroWords.Array.data[2]
+      value: "Anla\u015F\u0131ld\u0131,fantastik olan tek \u015Fey benim hikayem
+        de\u011Filmi\u015F,burada bekledi\u011Fimden \xE7ok daha fazlas\u0131 var..."
+      objectReference: {fileID: 0}
+    - target: {fileID: -4723488798022982054, guid: eae065d00a268364cad7626f5ab4bdfb, type: 3}
+      propertyPath: friendWords.Array.data[0]
+      value: "Hikayeni duydum ve yarat\u0131klarla olan sava\u015F\u0131n\u0131 g\xF6rd\xFCm
+        gen\xE7 adam. Bilir misin b\xF6yle fantastik hikayeleri hep ilgi \xE7ekici
+        bulmu\u015Fumdur. Ancak uyarmal\u0131y\u0131m ki madalyonun di\u011Fer y\xFCz\xFC
+        g\xF6r\xFCnd\xFC\u011F\xFC gibi de\u011Fil. Bu diyara daha \xF6nce de \xE7ok
+        yi\u011Fit sava\u015F\xE7\u0131lar geldi,bir\xE7o\u011Fu \u015Fu an topra\u011F\u0131n
+        alt\u0131nda.\xD6ng\xF6r\xFClemez ko\u015Fullara ayak uydurup Alexandrite'ini
+        almak istiyorsan rehberli\u011Fime ihtiya\xE7 duyacaks\u0131n."
+      objectReference: {fileID: 0}
+    - target: {fileID: -4723488798022982054, guid: eae065d00a268364cad7626f5ab4bdfb, type: 3}
+      propertyPath: friendWords.Array.data[1]
+      value: "Yeni bir sava\u015Ftan \xE7\u0131kt\u0131n \xF6ncelikle biraz dinlen.Her
+        zaman tetikte olabilmek i\xE7in gereken enerjiyi b\xFCnyende bar\u0131nd\u0131rmal\u0131s\u0131n.Alexandrite
+        kudretli bir d\xFC\u015Fman taraf\u0131ndan korunuyor ve ona giden yolda
+        \xE7ok daha fazlas\u0131 var.Unutma,benim yapabilece\u011Fim \u015Fey koordinatlar\u0131
+        ve taktikleri vermekle s\u0131n\u0131rl\u0131.D\xFC\u015Fmanlar\u0131n\u0131
+        alt edecek g\xFC\xE7 senin i\xE7inde."
+      objectReference: {fileID: 0}
+    - target: {fileID: -4723488798022982054, guid: eae065d00a268364cad7626f5ab4bdfb, type: 3}
+      propertyPath: friendWords.Array.data[2]
+      value: "Sen bir sava\u015F\xE7\u0131s\u0131n evlat,bilirim ki k\u0131l\u0131c\u0131n\u0131
+        iyi kullan\u0131rs\u0131n ama unutma kar\u015F\u0131na \xE7\u0131kacak olan
+        yarat\u0131klar\u0131n k\u0131l\u0131\xE7 ve kalkandan fazlas\u0131 var.B\xFCy\xFC
+        yoluyla gelecek sald\u0131r\u0131lara kar\u015F\u0131 dikkatli ol. Kalabal\u0131k
+        kolonilerin i\xE7ine girme ve d\xFC\u015Fman\u0131n\u0131 gafil avla. \u015Eu
+        hayatta g\xFC\xE7ten daha de\u011Ferli bir olgu varsa onun ad\u0131 ak\u0131ld\u0131r."
+      objectReference: {fileID: 0}
     - target: {fileID: 5371345060493157826, guid: eae065d00a268364cad7626f5ab4bdfb, type: 3}
       propertyPath: m_Name
       value: Knight
@@ -495,6 +594,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 253e2ba2824e1c34390f56252bc303cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &460453007
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7607060794603901097, guid: a79031d19c4d0a448846f5451806b500, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607060794603901097, guid: a79031d19c4d0a448846f5451806b500, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.4259796
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607060794603901097, guid: a79031d19c4d0a448846f5451806b500, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.0542102
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607060794603901097, guid: a79031d19c4d0a448846f5451806b500, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607060794603901097, guid: a79031d19c4d0a448846f5451806b500, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607060794603901097, guid: a79031d19c4d0a448846f5451806b500, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607060794603901097, guid: a79031d19c4d0a448846f5451806b500, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607060794603901097, guid: a79031d19c4d0a448846f5451806b500, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607060794603901097, guid: a79031d19c4d0a448846f5451806b500, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607060794603901097, guid: a79031d19c4d0a448846f5451806b500, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607060794603901097, guid: a79031d19c4d0a448846f5451806b500, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607060794603901098, guid: a79031d19c4d0a448846f5451806b500, type: 3}
+      propertyPath: m_Name
+      value: HeavyBandit
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a79031d19c4d0a448846f5451806b500, type: 3}
 --- !u!1 &485449005
 GameObject:
   m_ObjectHideFlags: 0
@@ -559,7 +715,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
@@ -668,6 +824,120 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &570352366
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6439539521801998685, guid: d13b381e527ccc64a9ffe9fc929e30a5, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6439539521801998685, guid: d13b381e527ccc64a9ffe9fc929e30a5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.8841448
+      objectReference: {fileID: 0}
+    - target: {fileID: 6439539521801998685, guid: d13b381e527ccc64a9ffe9fc929e30a5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.4832942
+      objectReference: {fileID: 0}
+    - target: {fileID: 6439539521801998685, guid: d13b381e527ccc64a9ffe9fc929e30a5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6439539521801998685, guid: d13b381e527ccc64a9ffe9fc929e30a5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6439539521801998685, guid: d13b381e527ccc64a9ffe9fc929e30a5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6439539521801998685, guid: d13b381e527ccc64a9ffe9fc929e30a5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6439539521801998685, guid: d13b381e527ccc64a9ffe9fc929e30a5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6439539521801998685, guid: d13b381e527ccc64a9ffe9fc929e30a5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6439539521801998685, guid: d13b381e527ccc64a9ffe9fc929e30a5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6439539521801998685, guid: d13b381e527ccc64a9ffe9fc929e30a5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6439539521801998686, guid: d13b381e527ccc64a9ffe9fc929e30a5, type: 3}
+      propertyPath: m_Name
+      value: LightBandit
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d13b381e527ccc64a9ffe9fc929e30a5, type: 3}
+--- !u!1001 &590678177
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2369634170594975364, guid: 86362ceefbdd5974ba626fda47c58937, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2369634170594975364, guid: 86362ceefbdd5974ba626fda47c58937, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.349065
+      objectReference: {fileID: 0}
+    - target: {fileID: 2369634170594975364, guid: 86362ceefbdd5974ba626fda47c58937, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.0626192
+      objectReference: {fileID: 0}
+    - target: {fileID: 2369634170594975364, guid: 86362ceefbdd5974ba626fda47c58937, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2369634170594975364, guid: 86362ceefbdd5974ba626fda47c58937, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2369634170594975364, guid: 86362ceefbdd5974ba626fda47c58937, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2369634170594975364, guid: 86362ceefbdd5974ba626fda47c58937, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2369634170594975364, guid: 86362ceefbdd5974ba626fda47c58937, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2369634170594975364, guid: 86362ceefbdd5974ba626fda47c58937, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2369634170594975364, guid: 86362ceefbdd5974ba626fda47c58937, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2369634170594975364, guid: 86362ceefbdd5974ba626fda47c58937, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2369634170594975366, guid: 86362ceefbdd5974ba626fda47c58937, type: 3}
+      propertyPath: m_Name
+      value: Warrior (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 86362ceefbdd5974ba626fda47c58937, type: 3}
 --- !u!1001 &609810277
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -851,6 +1121,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52dc2043901476749aa09ebbf34faa54, type: 3}
+--- !u!1001 &832683076
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5542791724870689852, guid: 862cecc53d69e754b977e38bee72a662, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542791724870689852, guid: 862cecc53d69e754b977e38bee72a662, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.5283875
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542791724870689852, guid: 862cecc53d69e754b977e38bee72a662, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.1527638
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542791724870689852, guid: 862cecc53d69e754b977e38bee72a662, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542791724870689852, guid: 862cecc53d69e754b977e38bee72a662, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542791724870689852, guid: 862cecc53d69e754b977e38bee72a662, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542791724870689852, guid: 862cecc53d69e754b977e38bee72a662, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542791724870689852, guid: 862cecc53d69e754b977e38bee72a662, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542791724870689852, guid: 862cecc53d69e754b977e38bee72a662, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542791724870689852, guid: 862cecc53d69e754b977e38bee72a662, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542791724870689852, guid: 862cecc53d69e754b977e38bee72a662, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542791724870689854, guid: 862cecc53d69e754b977e38bee72a662, type: 3}
+      propertyPath: m_Name
+      value: King (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 862cecc53d69e754b977e38bee72a662, type: 3}
 --- !u!1001 &1129960693
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1259,5 +1586,5 @@ Transform:
   m_LocalScale: {x: 16.732492, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
