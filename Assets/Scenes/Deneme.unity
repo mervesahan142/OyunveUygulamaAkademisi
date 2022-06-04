@@ -198,11 +198,7 @@ PrefabInstance:
     - target: {fileID: 60154840214422763, guid: 554d76d2eaa84b647873dc3c380b5193, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 519420030}
-    - target: {fileID: 60154840214422763, guid: 554d76d2eaa84b647873dc3c380b5193, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: UpdateSkill
-      objectReference: {fileID: 0}
+        objectReference: {fileID: 0}
     - target: {fileID: 60154840214422763, guid: 554d76d2eaa84b647873dc3c380b5193, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: SkillManagerandUI, Assembly-CSharp
@@ -825,6 +821,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 253e2ba2824e1c34390f56252bc303cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &460453007
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7607060794603901097, guid: a79031d19c4d0a448846f5451806b500, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607060794603901097, guid: a79031d19c4d0a448846f5451806b500, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.4259796
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607060794603901097, guid: a79031d19c4d0a448846f5451806b500, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.0542102
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607060794603901097, guid: a79031d19c4d0a448846f5451806b500, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607060794603901097, guid: a79031d19c4d0a448846f5451806b500, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607060794603901097, guid: a79031d19c4d0a448846f5451806b500, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607060794603901097, guid: a79031d19c4d0a448846f5451806b500, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607060794603901097, guid: a79031d19c4d0a448846f5451806b500, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607060794603901097, guid: a79031d19c4d0a448846f5451806b500, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607060794603901097, guid: a79031d19c4d0a448846f5451806b500, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607060794603901097, guid: a79031d19c4d0a448846f5451806b500, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607060794603901098, guid: a79031d19c4d0a448846f5451806b500, type: 3}
+      propertyPath: m_Name
+      value: HeavyBandit
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a79031d19c4d0a448846f5451806b500, type: 3}
 --- !u!1 &485449005
 GameObject:
   m_ObjectHideFlags: 0

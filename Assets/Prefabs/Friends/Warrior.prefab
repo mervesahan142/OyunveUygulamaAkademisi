@@ -76,8 +76,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 102096611
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -8180171696930044909, guid: 9afc72c4d67f0774b8b1b73eeb79a443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -215,10 +215,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9537f76554a4564fac7f1ec1f2f840d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRateTime: 1
+
+  attackRateTime: 2
   friendWords: []
   heroWords: []
-  speechArea: {fileID: 0}
   text: {fileID: 0}
 --- !u!1 &6865596669376002677
 GameObject:
