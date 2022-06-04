@@ -16,6 +16,8 @@ public class SkillManagerandUI : MonoBehaviour
     Button[] dodgeSpeedLevelButtons = new Button[2];
     Button[] attackRangeLevelButtons = new Button[2];
 
+    GameObject sound;
+
     void Awake() {
         //reset
         if(false){
@@ -74,8 +76,7 @@ public class SkillManagerandUI : MonoBehaviour
         skillMenu = GameObject.Find("SkillMenu").GetComponent<Image>();
         skillMenu.gameObject.SetActive(false);
 
-        
-
+        sound = GameObject.Find("Sound");
     }
     // Start is called before the first frame update
     void Start()
@@ -119,6 +120,8 @@ public class SkillManagerandUI : MonoBehaviour
     }
 
     public void OpenSkillMenu(){
+        sound.GetComponent<Sounds>().Click();
+        sound.GetComponent<Sounds>().MusicPause();
         Time.timeScale = 0;
         pauseButton.gameObject.SetActive(false);
         skillMenu.gameObject.SetActive(true);
@@ -171,6 +174,8 @@ public class SkillManagerandUI : MonoBehaviour
         Time.timeScale = 1;
         pauseButton.gameObject.SetActive(true);
         skillMenu.gameObject.SetActive(false);
+        sound.GetComponent<Sounds>().Click();
+        sound.GetComponent<Sounds>().MusicPlay();
     }
 
     public void UpdateSkill(string buttonName){
@@ -201,13 +206,18 @@ public class SkillManagerandUI : MonoBehaviour
         skillRightText.text = "x" + skillRightValue;
         PrepareSkillMenu();
         GameObject.Find("Hero").GetComponent<MainCharacterController>().UpdateSkills();
+        sound.GetComponent<Sounds>().Click();
+
     }
 
     public void PlayPause(){
+        sound.GetComponent<Sounds>().Click();
         if(Time.timeScale == 0){
             Time.timeScale = 1;
+            sound.GetComponent<Sounds>().MusicPlay();
         }else{
             Time.timeScale = 0;
+            sound.GetComponent<Sounds>().MusicPause();
         }
     }
 }

@@ -10,14 +10,14 @@ public class MainCharacterController : MonoBehaviour
     public int attackLevel = 1, enduranceLevel = 1;
     public Transform attackPoint;
     public LayerMask enemyLayers;
-    public GameObject[] foods = new GameObject[4];
 
     Animations anim = new Animations();
+    
     bool isSpeaking, isMovingRight, isMovingLeft, isAttacking, isGuarding, isJumping, isDodging, isGrounded, isTakingDamage, isDead, isAnimationFinished = true;
     int health = 100, attackDamage = 1;
     int spokeWithFreeKnight_1, spokeWithKnight, spokeWithWarrior, spokeWithKing;
 
-    GameObject speechButton, friendGameObject;
+    GameObject speechButton, friendGameObject, sound;
     Image healthBar;
 
     private void OnDrawGizmosSelected() {
@@ -41,6 +41,8 @@ public class MainCharacterController : MonoBehaviour
         speechButton = GameObject.Find("SpeechButton");
         speechButton.SetActive(false);
 
+        sound = GameObject.Find("Sound");
+
         switch(attackLevel){
             case 1:
                 attackDamage = 25;
@@ -56,13 +58,19 @@ public class MainCharacterController : MonoBehaviour
 
     void Start()
     {
-        
+        InvokeRepeating("WalkSound", 0.5f, 0.5f);
+    }
+
+    void WalkSound(){
+        if((isMovingRight || isMovingLeft) && isGrounded){
+            sound.GetComponent<Sounds>().HeroWalk();
+        }
     }
 
     void Update()
     {
         if(!isSpeaking){
-            transform.Translate(new Vector3(Random.Range(-0.01f,0.01f),0,0));
+            transform.Translate(new Vector3(Random.Range(-0.0001f,0.0001f),0,0));
             if(!isTakingDamage && !isDead){
                 //Defence
                 if(isGuarding){
@@ -106,6 +114,7 @@ public class MainCharacterController : MonoBehaviour
                         default:
                             break;
                     }
+                    AttackSound();
                     //attack to enemy
                     Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position,attackRange,enemyLayers);
                     foreach(Collider2D enemy in hitEnemies){
@@ -113,7 +122,6 @@ public class MainCharacterController : MonoBehaviour
                             if(enemy.tag == "EnemyGroup_A"){
                                 enemy.GetComponent<NPCManagerGroup_A>().TakeDamage(attackDamage,0,true);
                             }else if(enemy.tag == "EnemyGroup_B"){
-                                Debug.Log("ierdeeded");
                                 enemy.GetComponent<NPCManagerGroup_B>().TakeDamage(attackDamage,0,true);
                             }
                         }
@@ -125,11 +133,13 @@ public class MainCharacterController : MonoBehaviour
                     isGrounded = false;
                     GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 6), ForceMode2D.Impulse);
                     anim.Jump(GetComponent<Animator>());
+                    sound.GetComponent<Sounds>().HeroJump();
                 }
                 //Dodge
                 if(isDodging && isAnimationFinished){
                     isAnimationFinished = false;
                     anim.Dodge(GetComponent<Animator>());
+                    sound.GetComponent<Sounds>().HeroDodge();
                     Invoke("FinishAnimation",0.66f);
                 }
                 if(isDodging){
@@ -143,14 +153,27 @@ public class MainCharacterController : MonoBehaviour
         }
     }
 
+    int soundCount = 1;
+    void AttackSound(){
+        sound.GetComponent<Sounds>().HeroAttack();
+        if(attackLevel == soundCount){
+            soundCount = 1;
+        }else{
+            Invoke("AttackSound",0.5f);
+            soundCount++;
+        }
+    }
+
     void OnCollisionEnter2D(Collision2D other){
         if(other.gameObject.tag == "EnemyFire"){
             /*health = health - other.gameObject.GetComponent<Fire>().damage;
             healthBar.rectTransform.sizeDelta = new Vector2(2.7f * health, 27.2155f);*/
             if(isGuarding){
                 anim.Repel(GetComponent<Animator>());
+                sound.GetComponent<Sounds>().HeroShieldGuard();
             }else{
                 TakeDamage(other.gameObject.GetComponent<Fire>().damage, 0, false);
+                sound.GetComponent<Sounds>().HeroHit();
                 //anim.TakeDamage(GetComponent<Animator>());
             }
         }
@@ -165,7 +188,8 @@ public class MainCharacterController : MonoBehaviour
                     health = 100;
                 }
                 healthBar.rectTransform.sizeDelta = new Vector2(2.7f * health, 27.2155f);
-                other.gameObject.SetActive(false);
+                Destroy(other.gameObject);
+                sound.GetComponent<Sounds>().HeroHealth();
                 break;
             case "Cheese":
                 health = health + 25;
@@ -173,7 +197,8 @@ public class MainCharacterController : MonoBehaviour
                     health = 100;
                 }
                 healthBar.rectTransform.sizeDelta = new Vector2(2.7f * health, 27.2155f);
-                other.gameObject.SetActive(false);
+                Destroy(other.gameObject);
+                sound.GetComponent<Sounds>().HeroHealth();
                 break;
             case "Meat":
                 health = health + 40;
@@ -181,7 +206,8 @@ public class MainCharacterController : MonoBehaviour
                     health = 100;
                 }
                 healthBar.rectTransform.sizeDelta = new Vector2(2.7f * health, 27.2155f);
-                other.gameObject.SetActive(false);
+                Destroy(other.gameObject);
+                sound.GetComponent<Sounds>().HeroHealth();
                 break;
             case "Drink":
                 health = health + 10;
@@ -189,7 +215,8 @@ public class MainCharacterController : MonoBehaviour
                     health = 100;
                 }
                 healthBar.rectTransform.sizeDelta = new Vector2(2.7f * health, 27.2155f);
-                other.gameObject.SetActive(false);
+                Destroy(other.gameObject);
+                sound.GetComponent<Sounds>().HeroHealth();
                 break;
         }
     }
@@ -274,6 +301,7 @@ public class MainCharacterController : MonoBehaviour
     void Die(){
         isDead = true;
         anim.Dead(GetComponent<Animator>());
+        sound.GetComponent<Sounds>().Die();
     }
 
     public void UpdateSkills(){

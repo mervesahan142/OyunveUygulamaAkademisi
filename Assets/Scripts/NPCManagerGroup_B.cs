@@ -13,9 +13,12 @@ public class NPCManagerGroup_B : MonoBehaviour
     bool isFriend, isActive, isDead, isTakingDamage, isAttacking, isIdle, isPatroling, isMovingRight = true;
     Animations animations = new Animations();
     float deadTime = 0, halfAttack_1Time = 0;
+    GameObject sound;
     
     string gameObjectName;
     void Awake() {
+        sound = GameObject.Find("Sound");
+
         gameObjectName = gameObject.name.Substring(0,gameObject.name.Length - 4);
         if(gameObjectName == "FreeKnight_1" || gameObjectName == "FreeKnight_2" || gameObjectName == "HeavyBandit" || gameObjectName == "King" || gameObjectName == "Knight" || gameObjectName == "LightBandit" || gameObjectName == "Warrior"){
             isFriend = true;
@@ -112,6 +115,7 @@ public class NPCManagerGroup_B : MonoBehaviour
         }else{
             Instantiate(fire, new Vector3(transform.position.x + firePosX, transform.position.y + firePosY, 0),  Quaternion.identity).transform.localScale = new Vector3(transform.localScale.x,transform.localScale.y,transform.localScale.z);
         }
+        sound.GetComponent<Sounds>().EnemyFire();
     }
 
     public void TakeDamage(int attackDamage, float attackTime, bool isByChar){
@@ -162,10 +166,12 @@ public class NPCManagerGroup_B : MonoBehaviour
 
     void ShowDamageAnim(){
         animations.TakeDamage(GetComponent<Animator>());
+        sound.GetComponent<Sounds>().Attack();
     }
 
     void Die(){
         animations.Dead(GetComponent<Animator>());
+        sound.GetComponent<Sounds>().Die();
         Camera.main.GetComponent<SkillManagerandUI>().EarnXp((int)xpPoint);
         foreach(AnimationClip clip in GetComponent<Animator>().runtimeAnimatorController.animationClips)
         {

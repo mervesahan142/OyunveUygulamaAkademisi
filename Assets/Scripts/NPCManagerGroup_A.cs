@@ -17,9 +17,9 @@ public class NPCManagerGroup_A : MonoBehaviour
     bool isSpeaking;
     Animations animations = new Animations();
     float deadTime = 0, halfAttack_1Time = 0;
+    GameObject sound;
 
     string gameObjectName;
-
 
 
     private void OnDrawGizmosSelected() {
@@ -27,6 +27,8 @@ public class NPCManagerGroup_A : MonoBehaviour
     }
     
     void Awake() {
+        sound = GameObject.Find("Sound");
+
         gameObjectName = gameObject.name.Substring(0,gameObject.name.Length - 4);
         if(gameObjectName == "FreeKnight_1" || gameObjectName == "FreeKnight_2" || gameObjectName == "HeavyBandit" || gameObjectName == "King" || gameObjectName == "Knight" || gameObjectName == "LightBandit" || gameObjectName == "Warrior"){
             isFriend = true;
@@ -128,7 +130,11 @@ public class NPCManagerGroup_A : MonoBehaviour
                 case 1:
                     animations.Attack_2(GetComponent<Animator>());
                     break;
+                case 2:
+                    animations.Attack_3(GetComponent<Animator>());
+                    break;
             }
+            sound.GetComponent<Sounds>().Attack();
             Collider2D[] hits = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, attackLayers);
             foreach(Collider2D hit in hits){
                 if(hit.tag == "Player"){
@@ -195,12 +201,18 @@ public class NPCManagerGroup_A : MonoBehaviour
 
     void ShowDamageAnim(){
         animations.TakeDamage(GetComponent<Animator>());
+        sound.GetComponent<Sounds>().Attack();
         isTakingDamage = false;
     }
 
     void Die(){
         InitialValues();
         animations.Dead(GetComponent<Animator>());
+        if(gameObject.name.Contains("emon")){
+            sound.GetComponent<Sounds>().EnemyDie();
+        }else{
+            sound.GetComponent<Sounds>().Die();
+        }
         Camera.main.GetComponent<SkillManagerandUI>().EarnXp((int)xpPoint);
         foreach(AnimationClip clip in GetComponent<Animator>().runtimeAnimatorController.animationClips)
         {

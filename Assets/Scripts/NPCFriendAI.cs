@@ -20,7 +20,7 @@ public class NPCFriendAI : MonoBehaviour
 
     void Awake(){
         hero = GameObject.Find("Hero");
-        speechArea.SetActive(false);
+        //speechArea.SetActive(false);
     }
 
     void Start()
