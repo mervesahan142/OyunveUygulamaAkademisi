@@ -54,3 +54,12 @@ TagManager:
   - name: ActiveUI
     uniqueID: 3147244375
     locked: 0
+  - name: Background
+    uniqueID: 2625560935
+    locked: 0
+  - name: Midground
+    uniqueID: 1111515229
+    locked: 0
+  - name: Foreground
+    uniqueID: 58141437
+    locked: 0

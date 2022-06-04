@@ -131,3 +131,5 @@ Alınan kararlar: Oyunun mekanları belirlendi. Mekanlar Castle, Forrest, Cave, 
 
 ---
 
+
+
