@@ -254,7 +254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a98cbcfe3d84d84490ddd3d77ae406b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterMoveSpeed: 2
+  characterMoveSpeed: 3
   attackRange: 0.5
   attackDamage: 1900000023000000
   attackPoint: {fileID: 202372689934803011}
@@ -296,4 +296,5 @@ MonoBehaviour:
     dokunabilir.Niyetiniz dalga ge\xE7mekse,g\xF6lge etmeyin ba\u015Fka ihsan istemem!"
   - "Yard\u0131m\u0131n\u0131z i\xE7in minnettar\u0131m. Kim bilir,belki de yollar\u0131m\u0131z
     bir daha kesi\u015Fir..."
-  text: {fileID: 0}
+  speechArea: {fileID: 0}
+    text: {fileID: 0}

@@ -62,7 +62,7 @@ Transform:
   m_GameObject: {fileID: 6767024559018369617}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.61, y: 0.42, z: 0}
-  m_LocalScale: {x: 6, y: 6, z: 1}
+  m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children:
   - {fileID: 6282318230296490435}
   m_Father: {fileID: 0}
@@ -223,13 +223,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecb60717e7170db48ae5321279f52e01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterMoveSpeed: 2
+  characterMoveSpeed: 1
   fireTime: 1
   firePosX: 2.11
   firePosY: -0.36
+  xpPoint: 100
   health: 100
   fire: {fileID: 5805450215025515836, guid: 91d37b1cb7434f7428e9c5ab50eafc96, type: 3}
   groundDetection: {fileID: 6282318230296490435}
+  foods:
+  - {fileID: 1997861236836095625, guid: e8cc5df2e9e1f9b49aeb87c2722dec88, type: 3}
+  - {fileID: 3178629949577165527, guid: d49123b10a114f44ca8e2e02216351cf, type: 3}
+  - {fileID: 7237263939581746136, guid: 83df9cf60fd29b84fb635207aa772d4b, type: 3}
+  - {fileID: 6754081531157570653, guid: 5c17905f2abafe5418a41d78ee351f2f, type: 3}
 --- !u!114 &6438737781747479138
 MonoBehaviour:
   m_ObjectHideFlags: 0

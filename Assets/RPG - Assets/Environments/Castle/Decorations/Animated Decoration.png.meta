@@ -1,7 +1,124 @@
 fileFormatVersion: 2
 guid: 70509303b2d61e545b63b5f10c3cfcd7
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -4457501433606607454
+    second: Animated Decoration_0
+  - first:
+      213: -8556256866944010908
+    second: Animated Decoration_1
+  - first:
+      213: -4628569899661806905
+    second: Animated Decoration_2
+  - first:
+      213: 2365732147816922993
+    second: Animated Decoration_3
+  - first:
+      213: -7238672227711569166
+    second: Animated Decoration_4
+  - first:
+      213: -6761462747554218956
+    second: Animated Decoration_5
+  - first:
+      213: -8340325377549801298
+    second: Animated Decoration_6
+  - first:
+      213: -225942416727283660
+    second: Animated Decoration_7
+  - first:
+      213: -6543693318990738166
+    second: Animated Decoration_8
+  - first:
+      213: -5610255185225392589
+    second: Animated Decoration_9
+  - first:
+      213: 3637643365337307703
+    second: Animated Decoration_10
+  - first:
+      213: 8481089478169898534
+    second: Animated Decoration_11
+  - first:
+      213: -9104871322937627737
+    second: Animated Decoration_12
+  - first:
+      213: -5863143016471746379
+    second: Animated Decoration_13
+  - first:
+      213: -3973101851685844349
+    second: Animated Decoration_14
+  - first:
+      213: 713546566783346577
+    second: Animated Decoration_15
+  - first:
+      213: -1036110460740331353
+    second: Animated Decoration_16
+  - first:
+      213: -8433686645906546910
+    second: Animated Decoration_17
+  - first:
+      213: 6661561828569970728
+    second: Animated Decoration_18
+  - first:
+      213: 3866596318005067039
+    second: Animated Decoration_19
+  - first:
+      213: 4700200784047590029
+    second: Animated Decoration_20
+  - first:
+      213: 7859839570417687187
+    second: Animated Decoration_21
+  - first:
+      213: -2039384278194621946
+    second: Animated Decoration_22
+  - first:
+      213: 1985210807038968524
+    second: Animated Decoration_23
+  - first:
+      213: 6654402553673208706
+    second: Animated Decoration_24
+  - first:
+      213: -3614101970247756592
+    second: Animated Decoration_27
+  - first:
+      213: -4292849394642800967
+    second: Animated Decoration_28
+  - first:
+      213: -1186291915961161157
+    second: Animated Decoration_29
+  - first:
+      213: -5356546204565650773
+    second: Animated Decoration_30
+  - first:
+      213: 4069027243910856025
+    second: Animated Decoration_31
+  - first:
+      213: -2429202032889629855
+    second: Animated Decoration_32
+  - first:
+      213: -4974956927038359811
+    second: Animated Decoration_34
+  - first:
+      213: -3434474733896340523
+    second: Animated Decoration_36
+  - first:
+      213: -7435173736393056562
+    second: Animated Decoration_38
+  - first:
+      213: -1637293598989483963
+    second: Animated Decoration_42
+  - first:
+      213: -6674098130574213310
+    second: Animated Decoration_44
+  - first:
+      213: -725364278717447069
+    second: Animated Decoration_47
+  - first:
+      213: -3426328541712271257
+    second: Animated Decoration_48
+  - first:
+      213: 2871752669426223055
+    second: Animated Decoration_49
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +158,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +192,840 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Animated Decoration_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 121
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad65102016c322c0800000000000000
+      internalID: -4457501433606607454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 122
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4653ec666b1124980800000000000000
+      internalID: -8556256866944010908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_2
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 125
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2b790133404cfb0800000000000000
+      internalID: -4628569899661806905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_3
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 132
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 8, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f7950bad4c4d020800000000000000
+      internalID: 2365732147816922993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_4
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 92
+        width: 23
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f234c506f11b8b90800000000000000
+      internalID: -7238672227711569166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_5
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 138
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c7ef174757a22a0800000000000000
+      internalID: -6761462747554218956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_6
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 140
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8e7ff0246314c80800000000000000
+      internalID: -8340325377549801298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_7
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 140
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438e64fa19a4ddcf0800000000000000
+      internalID: -225942416727283660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_8
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 141
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0dc57aa8912035a0800000000000000
+      internalID: -6543693318990738166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_9
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 138
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ed85922ae5422b0800000000000000
+      internalID: -5610255185225392589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a9c722e518b7230800000000000000
+      internalID: 3637643365337307703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_11
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 92
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62eae9612f1e2b570800000000000000
+      internalID: 8481089478169898534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_12
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 99
+        width: 53
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab69ae75cff4a180800000000000000
+      internalID: -9104871322937627737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_13
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 99
+        width: 53
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8a3e3ad7ee1aea0800000000000000
+      internalID: -5863143016471746379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_14
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 99
+        width: 53
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a81d19ae4bcd8c0800000000000000
+      internalID: -3973101851685844349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_15
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 93
+        width: 21
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19722db62d607e900800000000000000
+      internalID: 713546566783346577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_16
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 91
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a89187860ffe91f0800000000000000
+      internalID: -1036110460740331353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_17
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 90
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fd8cbdda685fa80800000000000000
+      internalID: -8433686645906546910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_18
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 95
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828f639403f927c50800000000000000
+      internalID: 6661561828569970728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_19
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 95
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d76887dd8e8a530800000000000000
+      internalID: 3866596318005067039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a4b2ad5b77a3140800000000000000
+      internalID: 4700200784047590029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_21
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 64
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a1e423272c31d60800000000000000
+      internalID: 7859839570417687187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_22
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 66
+        width: 53
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60271b9ddc6a2b3e0800000000000000
+      internalID: -2039384278194621946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_23
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 69
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc203ddf5b2ec8b10800000000000000
+      internalID: 1985210807038968524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_24
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 66
+        width: 115
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283d424bddf295c50800000000000000
+      internalID: 6654402553673208706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_27
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 41
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4d759086128ddc0800000000000000
+      internalID: -3614101970247756592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_28
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 45
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bea016583cbc64c0800000000000000
+      internalID: -4292849394642800967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_29
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 94
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3aa735a9c1798fe0800000000000000
+      internalID: -1186291915961161157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2c5ed6b99b9a5b0800000000000000
+      internalID: -5356546204565650773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_31
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 13
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d71be38b6187830800000000000000
+      internalID: 4069027243910856025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_32
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 0
+        width: 53
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163f4fd1f9db94ed0800000000000000
+      internalID: -2429202032889629855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_34
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 15
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df67207880765fab0800000000000000
+      internalID: -4974956927038359811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_36
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 13
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dbed081d6b4650d0800000000000000
+      internalID: -3434474733896340523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_38
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 45
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece5af641e4f0d890800000000000000
+      internalID: -7435173736393056562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_42
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 93
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540063f752a2749e0800000000000000
+      internalID: -1637293598989483963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_44
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 17
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f76037c17d063a0800000000000000
+      internalID: -6674098130574213310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_47
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 14
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3640a4a180dfee5f0800000000000000
+      internalID: -725364278717447069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_48
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 7
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7683573485c3370d0800000000000000
+      internalID: -3426328541712271257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Decoration_49
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 0
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc70eef66d38ad720800000000000000
+      internalID: 2871752669426223055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

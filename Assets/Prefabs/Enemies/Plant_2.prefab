@@ -142,8 +142,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99c431aa27792f54ea899f0e14e53e89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterMoveSpeed: 2
-  fireTime: 0
-  firePosX: 0
-  firePosY: 0
+  fireTime: 0.5
   fire: {fileID: 2406134278033377795, guid: b3ed99b6dcd40c4468d847746e75d8b8, type: 3}

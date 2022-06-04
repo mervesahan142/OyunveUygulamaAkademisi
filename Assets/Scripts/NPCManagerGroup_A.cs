@@ -4,31 +4,40 @@ using UnityEngine;
 
 public class NPCManagerGroup_A : MonoBehaviour
 {
-    public float characterMoveSpeed = 2f, attackRange = 0.5f;
+    public float characterMoveSpeed = 2f, attackRange = 0.5f, xpPoint = 0;
     public int[] attackDamage;
     public Transform attackPoint, groundDetection;
     public LayerMask attackLayers;
 
     public int health = 100;
+    public GameObject[] foods = new GameObject[4];
+
     bool isFriend, isActive, isDead, isTakingDamage, isAttacking, isIdle, isPatroling, isMovingRight = true;
     //for friends bool
     bool isSpeaking;
     Animations animations = new Animations();
     float deadTime = 0, halfAttack_1Time = 0;
+    GameObject sound;
+
+    string gameObjectName;
+
 
     private void OnDrawGizmosSelected() {
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);    
     }
     
     void Awake() {
-        if(gameObject.name == "FreeKnight_1" || gameObject.name == "FreeKnight_2" || gameObject.name == "HeavyBandit" || gameObject.name == "King" || gameObject.name == "Knight" || gameObject.name == "LightBandit" || gameObject.name == "Warrior"){
+        sound = GameObject.Find("Sound");
+
+        gameObjectName = gameObject.name.Substring(0,gameObject.name.Length - 4);
+        if(gameObjectName == "FreeKnight_1" || gameObjectName == "FreeKnight_2" || gameObjectName == "HeavyBandit" || gameObjectName == "King" || gameObjectName == "Knight" || gameObjectName == "LightBandit" || gameObjectName == "Warrior"){
             isFriend = true;
         }
         foreach(AnimationClip clip in GetComponent<Animator>().runtimeAnimatorController.animationClips)
         {
-            if(clip.name == gameObject.name + "_Dead"){
+            if(clip.name == gameObjectName + "_Dead"){
                 deadTime = clip.length;
-            }else if(clip.name == gameObject.name + "_Attack_1"){
+            }else if(clip.name == gameObjectName + "_Attack_1"){
                 halfAttack_1Time = clip.length / 2;
             }
         }
@@ -43,35 +52,27 @@ public class NPCManagerGroup_A : MonoBehaviour
     {
         if(!isSpeaking){
             transform.Translate(new Vector3(Random.Range(-0.001f,0.001f),0,0));
-            /*if(isFriend){
-                if(isActive){
-
-                }else{
-
-                }
-            }else{*/
-                if(isPatroling || isActive){
-                    if(!isTakingDamage && !isAttacking && !isDead && !isIdle /*&& Physics2D.Raycast(groundDetection.position, Vector2.down, 0).collider*/){
-                        animations.Walk(GetComponent<Animator>());
-                        if(isMovingRight){
-                            transform.position += new Vector3(characterMoveSpeed * Time.deltaTime, 0, 0);
-                        }else{
-                            transform.position -= new Vector3(characterMoveSpeed * Time.deltaTime, 0, 0);
-                        }
-                        if(Physics2D.Raycast(groundDetection.position, Vector2.down, 0).collider == false){
-                            if(isPatroling){
-                                Flip();
-                            }else if(isActive){
-                                BeIdle();
-                            }
-                        }
+            if(isPatroling || isActive){
+                if(!isTakingDamage && !isAttacking && !isDead && !isIdle){
+                    animations.Walk(GetComponent<Animator>());
+                    if(isMovingRight){
+                        transform.position += new Vector3(characterMoveSpeed * Time.deltaTime, 0, 0);
                     }else{
-                        animations.NotWalk(GetComponent<Animator>());
+                        transform.position -= new Vector3(characterMoveSpeed * Time.deltaTime, 0, 0);
+                    }
+                    if(Physics2D.Raycast(groundDetection.position, Vector2.down, 0).collider == false){
+                        if(isPatroling){
+                            Flip();
+                        }else if(isActive){
+                            BeIdle();
+                        }
                     }
                 }else{
                     animations.NotWalk(GetComponent<Animator>());
                 }
-            //}
+            }else{
+                animations.NotWalk(GetComponent<Animator>());
+            }
         }else{
             animations.NotWalk(GetComponent<Animator>());
         }
@@ -129,7 +130,11 @@ public class NPCManagerGroup_A : MonoBehaviour
                 case 1:
                     animations.Attack_2(GetComponent<Animator>());
                     break;
+                case 2:
+                    animations.Attack_3(GetComponent<Animator>());
+                    break;
             }
+            sound.GetComponent<Sounds>().Attack();
             Collider2D[] hits = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, attackLayers);
             foreach(Collider2D hit in hits){
                 if(hit.tag == "Player"){
@@ -153,24 +158,27 @@ public class NPCManagerGroup_A : MonoBehaviour
                     Invoke("ShowDamageAnim", 0.25f);
                 }else{
                     isDead = true;
+                    CancelInvoke("ShowDamageAnim");
                     Invoke("Die", deadTime);
                 }
             }
             if(!isDead && attackDamage >= 35){
                 health = health - attackDamage;
                 if(health > 0){
-                    Invoke("ShowDamageAnim",0.5f);
+                    Invoke("ShowDamageAnim", 0.5f);
                 }else{
                     isDead = true;
+                    CancelInvoke("ShowDamageAnim");
                     Invoke("Die", deadTime);
                 }
             }
             if(!isDead && attackDamage >= 45){
                 health = health - attackDamage;
                 if(health > 0){
-                    Invoke("ShowDamageAnim",1f);
+                    Invoke("ShowDamageAnim", 1f);
                 }else{
                     isDead = true;
+                    CancelInvoke("ShowDamageAnim");
                     Invoke("Die", deadTime);
                 }
             }
@@ -182,24 +190,52 @@ public class NPCManagerGroup_A : MonoBehaviour
                 }else{
                     isDead = true;
                     Invoke("Die", deadTime);
+                    if(isByChar){
+                        Camera.main.GetComponent<SkillManagerandUI>().EarnXp((int)xpPoint);
+                    }
                 }
             }
         }
+        
     }
 
     void ShowDamageAnim(){
         animations.TakeDamage(GetComponent<Animator>());
+        sound.GetComponent<Sounds>().Attack();
         isTakingDamage = false;
     }
 
     void Die(){
         InitialValues();
         animations.Dead(GetComponent<Animator>());
+        if(gameObject.name.Contains("emon")){
+            sound.GetComponent<Sounds>().EnemyDie();
+        }else{
+            sound.GetComponent<Sounds>().Die();
+        }
+        Camera.main.GetComponent<SkillManagerandUI>().EarnXp((int)xpPoint);
         foreach(AnimationClip clip in GetComponent<Animator>().runtimeAnimatorController.animationClips)
         {
-            if(clip.name == gameObject.name + "_Dead"){
+            if(clip.name == gameObjectName + "_Dead"){
                 Invoke("WaitDeadAnimation",clip.length + 0.1f);
                 break;
+            }
+        }
+        CreateFood();
+    }
+
+    void CreateFood(){
+        float state = Random.Range(0.0f,1.0f);
+        Debug.Log("state" + state);
+        if(state > 0.4f ){
+            if(state < 0.6f){
+                Instantiate(foods[0], transform.position, Quaternion.identity);
+            }else if(state < 0.7f){
+                Instantiate(foods[1], transform.position, Quaternion.identity);
+            }else if(state < 0.8f){
+                Instantiate(foods[2], transform.position, Quaternion.identity);
+            }else if(state < 1f){
+                Instantiate(foods[3], transform.position, Quaternion.identity);
             }
         }
     }
@@ -213,7 +249,6 @@ public class NPCManagerGroup_A : MonoBehaviour
         isAttacking = false;
         isIdle = false;
         isPatroling = false;
-        //isActive = false;
     }
     
 }

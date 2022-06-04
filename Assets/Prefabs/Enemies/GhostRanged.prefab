@@ -201,13 +201,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecb60717e7170db48ae5321279f52e01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterMoveSpeed: 2
+  characterMoveSpeed: 1
   fireTime: 0.4
   firePosX: 1.34
   firePosY: 0
+  xpPoint: 100
   health: 100
   fire: {fileID: 5394355039718926508, guid: 696f9bc4a26b2294bac64a228e4aa1cf, type: 3}
   groundDetection: {fileID: 8000060322990503807}
+  foods:
+  - {fileID: 1997861236836095625, guid: e8cc5df2e9e1f9b49aeb87c2722dec88, type: 3}
+  - {fileID: 3178629949577165527, guid: d49123b10a114f44ca8e2e02216351cf, type: 3}
+  - {fileID: 7237263939581746136, guid: 83df9cf60fd29b84fb635207aa772d4b, type: 3}
+  - {fileID: 6754081531157570653, guid: 5c17905f2abafe5418a41d78ee351f2f, type: 3}
 --- !u!114 &3336930581347705386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -220,4 +226,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36d81462896f8f3458fd256a1be62290, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRateTime: 2
+  attackRateTime: 1

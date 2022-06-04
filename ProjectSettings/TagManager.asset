@@ -10,6 +10,10 @@ TagManager:
   - FriendGroup_B
   - EnemyFire
   - Ground
+  - Apple
+  - Cheese
+  - Meat
+  - Drink
   layers:
   - Default
   - TransparentFX
@@ -50,9 +54,12 @@ TagManager:
   - name: Background
     uniqueID: 3147244375
     locked: 0
+  - name: Background
+    uniqueID: 2625560935
+    locked: 0
   - name: Midground
-    uniqueID: 2819428239
+    uniqueID: 1111515229
     locked: 0
   - name: Foreground
-    uniqueID: 102096611
+    uniqueID: 58141437
     locked: 0

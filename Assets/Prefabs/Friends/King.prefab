@@ -224,7 +224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a98cbcfe3d84d84490ddd3d77ae406b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterMoveSpeed: 2
+  characterMoveSpeed: 3
   attackRange: 0.5
   attackDamage: 19000000230000002d000000
   attackPoint: {fileID: 1507755783197416759}
@@ -232,7 +232,7 @@ MonoBehaviour:
   attackLayers:
     serializedVersion: 2
     m_Bits: 64
-  health: 100
+  health: 200
 --- !u!114 &2388047834507210131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -245,7 +245,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9537f76554a4564fac7f1ec1f2f840d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRateTime: 2
+  attackRateTime: 1
+  friendWords: []
+  heroWords: []
+  speechArea: {fileID: 0}
+  text: {fileID: 0}
 --- !u!1 &8852867017170798077
 GameObject:
   m_ObjectHideFlags: 0

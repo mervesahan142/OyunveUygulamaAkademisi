@@ -44,6 +44,9 @@ public class NPCEnemyAIGroup_B : MonoBehaviour
             PatrolAI();
             GetComponent<NPCManagerGroup_B>().Flip();
         }
+        if(other.gameObject.tag == "Apple" || other.gameObject.tag == "Cheese" || other.gameObject.tag == "Meat" || other.gameObject.tag == "Drink"){
+            Destroy(other.gameObject);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other) {

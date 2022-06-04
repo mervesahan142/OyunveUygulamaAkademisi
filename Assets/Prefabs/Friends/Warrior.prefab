@@ -202,7 +202,7 @@ MonoBehaviour:
   attackLayers:
     serializedVersion: 2
     m_Bits: 64
-  health: 100
+  health: 200
 --- !u!114 &-2048409650381742032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -215,6 +215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9537f76554a4564fac7f1ec1f2f840d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+
   attackRateTime: 2
   friendWords: []
   heroWords: []
@@ -273,7 +274,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8718658569843800601}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.149, y: -0.204, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2369634170594975364}
