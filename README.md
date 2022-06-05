@@ -153,11 +153,17 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
   ![Screenshot 2]()
 
 - **Sprint Review**: 
-Alınan kararlar: 2D ve Open World bir oyun yapılması kararlaştırıldı. Önceden top-down olarak asset'ler belirlendi. Fakat asset bulma konusunda sıkıntı çektiğimiz için platform olarak oyunu yapmaya karar verdik. Buna göre asset'ler seçildi. Android app olarak oyunu çıkarmaya karar verdik. Bu sprint'te main ve NPC karakterler oluşturuldu. Oyunun senaryosu bu sprint'te geliştirilmeye başlandı. Sprint Review katılımcıları: Batuhan Sedat KOLBAŞ, Merve ŞAHAN, Beyza Zeynep TOPÇU, Orkun DEMİRCİ, Şekufe KALKAN
+Alınan kararlar: Oyunun mekanları belirlendi. Mekanlar Castle, Forrest, Cave, Village olarak belirlendi. Mekanlar herbir ekip üyesine atandı. Karakterlerin mekanikleri yapıldı. App için gerekli kontrol butonları eklendi. Ana karekterin can barı eklendi. Ayrıca oyun giriş ekranı tasarlandı ve yapıldı. Sprint Review katılımcıları: Batuhan Sedat KOLBAŞ, Merve ŞAHAN, Beyza Zeynep TOPÇU, Orkun DEMİRCİ, Şekufe KALKAN
 
 - **Sprint Retrospective:**
-  - Takım içindeki bireysel sorumlulukların arttırılması ile ilgili düzenleme yapılması kararı alınmıştır.
-  - Tahmin puanları gözden geçirildikten sonra bu sprint'te hedeflenen puana ulaşılamadığı fark edildiği için bir sonraki sprint planlaması toplantısında puan dağılımının daha uygulanabilir hedefler konmasına karar verilmiştir.
+- **Olumlu Gelişmeler:**
+  - Sprint 1'de alınan bireysel sorumlulukların arttırılması kararına göre, herkese ait görev dağılımı yapıldı.
+  - Sprint 2'de backlog'lar güncellenerek daha sistematik ilerlendi ve hedeflenen puana ulaşıldı.
+  - Ekip içinde herkesin fikri dikkate alınarak kararlar alındı ve ilerleme sağlandı.
+- **İyileştirilecek Kararlar:** 
+  - Zaman yönetimini güçlendirmeye dair kararlar alınmalı.
+  - Sprint 1'de belirlenen toplantı günleri ve saatine titizlikle uyulmalı.
+  - Ekip arasındaki iletişim güçlendirilmeli. Daily scrum'lara önem verilmeli.
   - Oyun için ayrılan efor/saat arttırılmalı.
 
 -**Diğer Notlar**:
