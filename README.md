@@ -129,6 +129,51 @@ Alınan kararlar: Oyunun mekanları belirlendi. Mekanlar Castle, Forrest, Cave, 
 
 # Sprint 3
 
+- **Sprint Notları**: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 140 Puan
+
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 250 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde üçüncü sprint'in en azından 140 ile sonlanması gerektiğine karar verildi.
+
+- **Backlog düzeni ve Story seçimleri**: Yapacağımız projede toplamda 250 puanlık backlog bulunmaktaydı. Fakat 2 adet user story'ı bu sprint'te ekleyemeyeceğimize karar verdik ve 50 puanlık user story'i rejected kısmına taşıdık. Projeyi 200 puan ile bu sprint'te sonlandırdık. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
+
+Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
+
+- **Daily Scrum**: Daily Scrum toplantılarının Watsapp üzerinden yapılmasına ve ek olarak çarşamba ve cumartesi günleri Discord üzerinden sesli toplantılar düzenlenmesine karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 3 Daily Scrum Chats](https://docs.google.com/document/d/1i1sZOANtIBq3bT2GXNW8HU2e_KhQ9-QjOejrAs9HJwA/edit?usp=sharing)
+
+- **Sprint board update**: Sprint board screenshotları: 
+![Backlog 1](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint3Documents/sprint3.1.png) 
+![Backlog 2](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint3Documents/sprint3.2.png) 
+![Backlog 3](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint3Documents/sprint3.3.png)
+![Backlog_4](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint3Documents/sprint3.4.png)
+![Backlog_5](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint3Documents/sprint3.5.png)
+
+- **Ürün Durumu**: Ekran görüntüleri:
+  ![Screenshot 1]()
+  ![Screenshot 2]()
+
+- **Sprint Review**: 
+Alınan kararlar: Sprint 2'de belirlenen oyun mekanları tamamlandı ve Enemy karakterler mekanlara yerleştirildi. Takım üyeleri ile beraber mekanlar kontrol edildi ve eksiklikler tamamlandı. Oyuna skill ağacı eklendi. Mekanlar arası geçişler yapıldı. Ana karakter ve NPC'ler arasındaki dialoglar eklendi. Mekanlara müzikler eklendi. Sprint Review katılımcıları: Batuhan Sedat KOLBAŞ, Merve ŞAHAN, Beyza Zeynep TOPÇU, Orkun DEMİRCİ, Şekufe KALKAN
+
+- **Sprint Retrospective:**
+- **Olumlu Gelişmeler:**
+  - Ekip içinde herkesin fikri dikkate alınarak kararlar alındı ve ilerleme sağlandı.
+  - Bireysel sorumluluklar yerine getirildi.
+  - Ekip arasındaki iletişim ve takım çalışması zaman geçtikçe daha da güçlendi.
+  - Takım olarak Git ve GitHub konusunda birbirimize destek olduk ve birbirimizi geliştirdik.
+  - Karşılaşılan sorunlar araştırıldı ve çözüm odaklı davranıldı.
+- **İyileştirilecek Kararlar:** 
+  - Zaman yönetimini güçlendirmeye dair kararlar alınmalı.
+  - Scrum Metodolojisi daha efektif kullanılabilir. 
+  - ASANA, JIRA, BASECAMP gibi profesyönel bir proje yönetim sistemi kullanmakla birlikte daha düzenli bir takip sağlanabilir.
+  - GitHub, GitLab gibi sitelerden C# ve UNITY örnek repoları incelenerek gelişim sağlanmalı.
+  - Stackoverflow'un daha efektif kullanılması sağlanmalı.
+
+
+-**Diğer Notlar**:
+- [Link to APK]()
+- [Link to story](https://docs.google.com/document/d/1qeP6IqIVlxglghG1ofAf2P7BxvNAaVSftV7PXGu6gaM/edit?usp=sharing)
+
 ---
 
 
