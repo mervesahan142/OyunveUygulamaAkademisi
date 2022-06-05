@@ -32,20 +32,10 @@ public class NPCPlants : MonoBehaviour
     }
 
     void Fire(){
-        if(gameObject.name == "Plant_1"){
-            if(transform.localScale.x < 0){
-                Instantiate(fire, new Vector3(transform.position.x - firePosX, transform.position.y + firePosY, 0),  Quaternion.identity).transform.localScale = new Vector3(transform.localScale.x,transform.localScale.y,transform.localScale.z);
-            }else{
-                Instantiate(fire, new Vector3(transform.position.x + firePosX, transform.position.y + firePosY, 0),  Quaternion.identity).transform.localScale = new Vector3(transform.localScale.x,transform.localScale.y,transform.localScale.z);
-            }
-        }else if(gameObject.name == "Plant_2"){
-            if(transform.localScale.x < 0){
-                Instantiate(fire, new Vector3(transform.position.x - firePosX, transform.position.y + firePosY, 0),  Quaternion.identity).transform.localScale = new Vector3(transform.localScale.x,transform.localScale.y,transform.localScale.z);
-            }else{
-                Instantiate(fire, new Vector3(transform.position.x + firePosX, transform.position.y + firePosY, 0),  Quaternion.identity).transform.localScale = new Vector3(transform.localScale.x,transform.localScale.y,transform.localScale.z);
-            }
+        if(transform.localScale.x < 0){
+            Instantiate(fire, new Vector3(transform.position.x - firePosX, transform.position.y + firePosY, 0),  Quaternion.identity).transform.localScale = new Vector3(transform.localScale.x,transform.localScale.y,transform.localScale.z);
+        }else{
+            Instantiate(fire, new Vector3(transform.position.x + firePosX, transform.position.y + firePosY, 0),  Quaternion.identity).transform.localScale = new Vector3(transform.localScale.x,transform.localScale.y,transform.localScale.z);
         }
-
-        
     }
 }

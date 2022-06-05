@@ -19,8 +19,13 @@ public class SkillManagerandUI : MonoBehaviour
     GameObject sound;
 
     void Awake() {
+        
+    }
+    // Start is called before the first frame update
+    void Start()
+    {
         //reset
-        if(false){
+        /*if(true){
             PlayerPrefs.SetInt("spokeWithFreeKnight_1", 0);
             PlayerPrefs.SetInt("spokeWithKnight", 0);
             PlayerPrefs.SetInt("spokeWithWarrior", 0);
@@ -36,7 +41,7 @@ public class SkillManagerandUI : MonoBehaviour
             PlayerPrefs.SetInt("moveSpeedLevel", 1);
             PlayerPrefs.SetInt("dodgeSpeedLevel", 1);
             PlayerPrefs.SetInt("attackRangeLevel", 1);
-        }
+        }*/
 
         pauseButton = GameObject.Find("PauseButton").GetComponent<Button>();
         //level
@@ -77,11 +82,6 @@ public class SkillManagerandUI : MonoBehaviour
         skillMenu.gameObject.SetActive(false);
 
         sound = GameObject.Find("Sound");
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
     }
 
     // Update is called once per frame

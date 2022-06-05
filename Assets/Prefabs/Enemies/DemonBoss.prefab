@@ -76,8 +76,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 58141437
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: -8655818156195654838, guid: 95273d9c911ca8440b6f7476b9093307, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -204,6 +204,11 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   health: 100
+  foods:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &1066719576350810525
 MonoBehaviour:
   m_ObjectHideFlags: 0

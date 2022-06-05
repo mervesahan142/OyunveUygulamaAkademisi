@@ -13,10 +13,24 @@ public class Sounds : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
-        if(SceneManager.GetActiveScene().name == "Deneme"){
-            audioSource.clip = musicClips[0];
-            audioSource.volume = 0.5f;
+        switch(SceneManager.GetActiveScene().name){
+            case "Forest":
+                audioSource.clip = musicClips[0];
+                break;
+            case "village":
+                audioSource.clip = musicClips[0];
+                break;
+            case "Cave":
+                //audioSource.clip = musicClips[0];
+                break;
+            case "Denme":
+                audioSource.clip = musicClips[0];
+                break;
+            default:
+                audioSource.clip = musicClips[0];
+                break;
         }
+        audioSource.volume = 0.5f;
         MusicPlay();
     }
 

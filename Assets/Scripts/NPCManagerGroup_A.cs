@@ -227,15 +227,15 @@ public class NPCManagerGroup_A : MonoBehaviour
     void CreateFood(){
         float state = Random.Range(0.0f,1.0f);
         Debug.Log("state" + state);
-        if(state > 0.4f ){
+        if(state > 0.5f){
             if(state < 0.6f){
-                Instantiate(foods[0], transform.position, Quaternion.identity);
+                Instantiate(foods[0], new Vector3(transform.position.x, transform.position.y + 5, transform.position.z), Quaternion.identity);
             }else if(state < 0.7f){
-                Instantiate(foods[1], transform.position, Quaternion.identity);
+                Instantiate(foods[1], new Vector3(transform.position.x, transform.position.y + 5, transform.position.z), Quaternion.identity);
             }else if(state < 0.8f){
-                Instantiate(foods[2], transform.position, Quaternion.identity);
-            }else if(state < 1f){
-                Instantiate(foods[3], transform.position, Quaternion.identity);
+                Instantiate(foods[2], new Vector3(transform.position.x, transform.position.y + 5, transform.position.z), Quaternion.identity);
+            }else if(state < 1f){ 
+                Instantiate(foods[3], new Vector3(transform.position.x, transform.position.y + 5, transform.position.z), Quaternion.identity);
             }
         }
     }

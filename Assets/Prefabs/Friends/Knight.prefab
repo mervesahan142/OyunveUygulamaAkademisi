@@ -136,8 +136,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 58141437
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: -5711848221618334454, guid: 8e4e4c39445b9f04db91a9d19f8d43fb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -256,6 +256,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterMoveSpeed: 2
   attackRange: 0.5
+  xpPoint: 0
   attackDamage: 19000000230000002d000000
   attackPoint: {fileID: 3418662261949896157}
   groundDetection: {fileID: 5187897424193707094}
@@ -263,6 +264,11 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   health: 200
+  foods:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &-4723488798022982054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -276,7 +282,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackRateTime: 1.5
-  friendWords: []
-  heroWords: []
+  friendWords:
+  - sgf
+  - sdfg
+  - sdfg
+  heroWords:
+  - sdfg
+  - sdfgssfg
+  - fg
   speechArea: {fileID: 0}
   text: {fileID: 0}

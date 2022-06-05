@@ -6,6 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Deneme.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/MainMenu.unity
+    guid: 6d1f6fb2134db64469f4c818ef3052cc
+  - enabled: 1
+    path: Assets/Scenes/Forest.unity
+    guid: 5661ac1084e8a4eedbe8c35442411f79
+  - enabled: 1
+    path: Assets/Scenes/village.unity
+    guid: 9d633aa19e6c6df46a65f4439d399e10
+  - enabled: 1
+    path: Assets/Scenes/Cave.unity
+    guid: f65fd5c3ecabedd44b948fe33d0ce09f
+  - enabled: 1
+    path: Assets/Scenes/Castle.unity
+    guid: e00eae9f4f7858d42bbf840e872f9a08
+  - enabled: 1
+    path: Assets/Scenes/Congratulations.unity
+    guid: 6c8001cd428292240a0b3c0a2c030294
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 03780bd733d894e4781fcd75f9882854
   m_configObjects: {}

@@ -103,8 +103,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 58141437
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 3428391033546482049, guid: 1590b4edb6c6f5849a91f9204b1967e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -196,10 +196,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterMoveSpeed: 2
-  attackRange: 0.5
-  attackDamage: 25
-  attackPoint: {fileID: 0}
-  attackLayers:
-    serializedVersion: 2
-    m_Bits: 128
+  fireTime: 0
+  firePosX: 0
+  firePosY: 0
+  xpPoint: 0
   health: 100
+  fire: {fileID: 0}
+  groundDetection: {fileID: 0}
+  foods:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

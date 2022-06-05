@@ -118,7 +118,7 @@ public class MainCharacterController : MonoBehaviour
                     //attack to enemy
                     Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position,attackRange,enemyLayers);
                     foreach(Collider2D enemy in hitEnemies){
-                        if(Mathf.Abs(enemy.transform.position.x - transform.position.x) < attackRange * 5){
+                        if(Mathf.Abs(enemy.transform.position.x - transform.position.x) < attackRange * 6){
                             if(enemy.tag == "EnemyGroup_A"){
                                 enemy.GetComponent<NPCManagerGroup_A>().TakeDamage(attackDamage,0,true);
                             }else if(enemy.tag == "EnemyGroup_B"){
@@ -153,6 +153,10 @@ public class MainCharacterController : MonoBehaviour
         }
     }
 
+    void LateUpdate() {
+        Camera.main.transform.position = new Vector3(transform.position.x, Camera.main.transform.position.y, Camera.main.transform.position.z);
+    }
+
     int soundCount = 1;
     void AttackSound(){
         sound.GetComponent<Sounds>().HeroAttack();
@@ -166,15 +170,12 @@ public class MainCharacterController : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other){
         if(other.gameObject.tag == "EnemyFire"){
-            /*health = health - other.gameObject.GetComponent<Fire>().damage;
-            healthBar.rectTransform.sizeDelta = new Vector2(2.7f * health, 27.2155f);*/
             if(isGuarding){
                 anim.Repel(GetComponent<Animator>());
                 sound.GetComponent<Sounds>().HeroShieldGuard();
             }else{
                 TakeDamage(other.gameObject.GetComponent<Fire>().damage, 0, false);
                 sound.GetComponent<Sounds>().HeroHit();
-                //anim.TakeDamage(GetComponent<Animator>());
             }
         }
         if(other.gameObject.tag == "Ground"){
@@ -290,18 +291,18 @@ public class MainCharacterController : MonoBehaviour
                 if(health > 0){
                     anim.TakeDamage(GetComponent<Animator>());
                 }else{
-                    anim.Dead(GetComponent<Animator>());
                     isDead = true;
+                    anim.Dead(GetComponent<Animator>());
+                    sound.GetComponent<Sounds>().Die();
+                    Invoke("GameOver", 1.0f);
                 }
             }
             isTakingDamage = false;
         }
     }
 
-    void Die(){
-        isDead = true;
-        anim.Dead(GetComponent<Animator>());
-        sound.GetComponent<Sounds>().Die();
+    void GameOver(){
+        Camera.main.GetComponent<ScenesManager>().GameOver();
     }
 
     public void UpdateSkills(){
@@ -324,19 +325,19 @@ public class MainCharacterController : MonoBehaviour
         switch(friendName){
             case "FreeKnight_1":
                 spokeWithFreeKnight_1 = 1;
-                //PlayerPrefs.SetInt("spokeWithFreeKnight_1",1);
+                PlayerPrefs.SetInt("spokeWithFreeKnight_1",spokeWithFreeKnight_1);
                 break;
             case "Knight":
                 spokeWithKnight = 1;
-                //PlayerPrefs.SetInt("Knight",1);
+                PlayerPrefs.SetInt("spokeWithKnight",spokeWithFreeKnight_1);
                 break;
             case "Warrior":
                 spokeWithWarrior = 1;
-                //PlayerPrefs.SetInt("Warrior",1);
+                PlayerPrefs.SetInt("spokeWithWarrior",spokeWithFreeKnight_1);
                 break;
             case "King":
                 spokeWithKing = 1;
-                //PlayerPrefs.SetInt("King",1);
+                PlayerPrefs.SetInt("spokeWithKing",spokeWithFreeKnight_1);
                 break;
         }
         speechButton.SetActive(false);

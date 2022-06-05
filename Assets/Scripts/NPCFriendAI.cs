@@ -113,7 +113,7 @@ public class NPCFriendAI : MonoBehaviour
     bool isSpeakingFriend = true;
     void ManageSpeak(){
         if(isSpeakingFriend){
-            text.color = Color.red;
+            text.color = Color.green;
             text.text = friendWords[speechController];
             isSpeakingFriend = false;
         }else{
@@ -123,7 +123,7 @@ public class NPCFriendAI : MonoBehaviour
             speechController++;
         }
         if(friendWords.Length > speechController){
-            Invoke("ManageSpeak", 1);
+            Invoke("ManageSpeak", 5);
         }else{
             FinishSpeech();
         }

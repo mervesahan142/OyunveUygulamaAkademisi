@@ -136,8 +136,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 58141437
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 6346318911325233748, guid: 8174cdccf190a42428de6b1a78a614de, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -256,6 +256,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterMoveSpeed: 3
   attackRange: 0.5
+  xpPoint: 0
   attackDamage: 1900000023000000
   attackPoint: {fileID: 202372689934803011}
   groundDetection: {fileID: 2074350337010027801}
@@ -263,6 +264,11 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   health: 100
+  foods:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &-7912430723808875028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -297,4 +303,4 @@ MonoBehaviour:
   - "Yard\u0131m\u0131n\u0131z i\xE7in minnettar\u0131m. Kim bilir,belki de yollar\u0131m\u0131z
     bir daha kesi\u015Fir..."
   speechArea: {fileID: 0}
-    text: {fileID: 0}
+  text: {fileID: 0}
