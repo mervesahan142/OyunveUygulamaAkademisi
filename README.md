@@ -153,18 +153,22 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
   ![Screenshot 2]()
 
 - **Sprint Review**: 
-Alınan kararlar: Oyunun mekanları belirlendi. Mekanlar Castle, Forrest, Cave, Village olarak belirlendi. Mekanlar herbir ekip üyesine atandı. Karakterlerin mekanikleri yapıldı. App için gerekli kontrol butonları eklendi. Ana karekterin can barı eklendi. Ayrıca oyun giriş ekranı tasarlandı ve yapıldı. Sprint Review katılımcıları: Batuhan Sedat KOLBAŞ, Merve ŞAHAN, Beyza Zeynep TOPÇU, Orkun DEMİRCİ, Şekufe KALKAN
+Alınan kararlar: Sprint 2'de belirlenen oyun mekanları tamamlandı ve Enemy karakterler mekanlara yerleştirildi. Takım üyeleri ile beraber mekanlar kontrol edildi ve eksiklikler tamamlandı. Oyuna skill ağacı eklendi. Mekanlar arası geçişler yapıldı. Ana karakter ve NPC'ler arasındaki dialoglar eklendi. Mekanlara müzikler eklendi. Sprint Review katılımcıları: Batuhan Sedat KOLBAŞ, Merve ŞAHAN, Beyza Zeynep TOPÇU, Orkun DEMİRCİ, Şekufe KALKAN
 
 - **Sprint Retrospective:**
 - **Olumlu Gelişmeler:**
-  - Sprint 1'de alınan bireysel sorumlulukların arttırılması kararına göre, herkese ait görev dağılımı yapıldı.
-  - Sprint 2'de backlog'lar güncellenerek daha sistematik ilerlendi ve hedeflenen puana ulaşıldı.
   - Ekip içinde herkesin fikri dikkate alınarak kararlar alındı ve ilerleme sağlandı.
+  - Bireysel sorumluluklar yerine getirildi.
+  - Ekip arasındaki iletişim ve takım çalışması zaman geçtikçe daha da güçlendi.
+  - Takım olarak Git ve GitHub konusunda birbirimize destek olduk ve birbirimizi geliştirdik.
+  - Karşılaşılan sorunlar araştırıldı ve çözüm odaklı davranıldı.
 - **İyileştirilecek Kararlar:** 
   - Zaman yönetimini güçlendirmeye dair kararlar alınmalı.
-  - Sprint 1'de belirlenen toplantı günleri ve saatine titizlikle uyulmalı.
-  - Ekip arasındaki iletişim güçlendirilmeli. Daily scrum'lara önem verilmeli.
-  - Oyun için ayrılan efor/saat arttırılmalı.
+  - Scrum Metodolojisi daha efektif kullanılabilir. 
+  - ASANA, JIRA, BASECAMP gibi profesyönel bir proje yönetim sistemi kullanmakla birlikte daha düzenli bir takip sağlanabilir.
+  - GitHub, GitLab gibi sitelerden C# ve UNITY örnek repoları incelenerek gelişim sağlanmalı.
+  - Stackoverflow'un daha efektif kullanılması sağlanmalı.
+
 
 -**Diğer Notlar**:
 - [Link to APK]()
