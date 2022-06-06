@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class NPCManagerGroup_A : MonoBehaviour
 {
+    //Grup A NPC'lerin hareketlerinin, animasyonlarının ve özelliklerinin bulunduğu scripttir.
+
     public float characterMoveSpeed = 2f, attackRange = 0.5f, xpPoint = 0;
     public int[] attackDamage;
     public Transform attackPoint, groundDetection;
@@ -20,8 +22,7 @@ public class NPCManagerGroup_A : MonoBehaviour
     GameObject sound;
 
     string gameObjectName;
-
-
+    //Saldırı menzilini göstermektedir.
     private void OnDrawGizmosSelected() {
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);    
     }
@@ -50,7 +51,9 @@ public class NPCManagerGroup_A : MonoBehaviour
     
     void Update()
     {
+        //Düşman ile dost bu scripti kullanmaktadır. O yüzden isSpeaking durumu vardır.
         if(!isSpeaking){
+            //Dost görüş alanı için Trigger kullanılmıştır. Bu yüzden dost TriggerStay fonksiyonunda algılayabilmsi için rasgele bir konum değiştirme ekleyebilmiştir bu amaç ile Translate kullanılmıştır.
             transform.Translate(new Vector3(Random.Range(-0.001f,0.001f),0,0));
             if(isPatroling || isActive){
                 if(!isTakingDamage && !isAttacking && !isDead && !isIdle){
@@ -224,6 +227,7 @@ public class NPCManagerGroup_A : MonoBehaviour
         CreateFood();
     }
 
+    //Düşman veya dost öldüğün rasgele yiyecek üretmektedir.
     void CreateFood(){
         float state = Random.Range(0.0f,1.0f);
         Debug.Log("state" + state);

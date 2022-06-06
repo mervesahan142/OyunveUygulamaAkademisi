@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Animations : MonoBehaviour
 {
+    /*
+        Düşman ve dost npc'ler aynı animasyon isimlerine sahiplerdir. O yüzden bu script'de sadece Animator gönderilerek animasyon yönetimi yapılabilir.
+    */
+
     public void Walk(Animator anim){
         anim.SetBool("isWalking", true);
     }

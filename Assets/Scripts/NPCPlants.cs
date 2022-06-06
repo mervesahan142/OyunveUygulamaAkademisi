@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class NPCPlants : MonoBehaviour
 {
+    //Düşman bitkinin scriptidir. Sadece Ateş edebilmektedir. Öldülemektedir.
+
     public float fireTime = 0;
     
     public GameObject fire;

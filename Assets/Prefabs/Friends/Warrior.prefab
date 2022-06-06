@@ -222,12 +222,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackRateTime: 2
-  friendWords:
-  - asd
-  - fgf
-  heroWords:
-  - sdf
-  - gfg
+  friendWords: []
+  heroWords: []
   speechArea: {fileID: 0}
   text: {fileID: 0}
 --- !u!1 &6865596669376002677

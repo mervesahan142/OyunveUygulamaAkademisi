@@ -1338,6 +1338,10 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AttackButtonUp
       objectReference: {fileID: 0}
+    - target: {fileID: 7793302475809045170, guid: 554d76d2eaa84b647873dc3c380b5193, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8136508279256256658, guid: 554d76d2eaa84b647873dc3c380b5193, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 

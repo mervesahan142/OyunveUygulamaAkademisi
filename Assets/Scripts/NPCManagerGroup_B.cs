@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class NPCManagerGroup_B : MonoBehaviour
 {
+    //Grup B NPC'lerin hareketlerinin, animasyonlarının ve özelliklerinin bulunduğu scripttir.
+
     public float characterMoveSpeed = 2f, fireTime = 0, firePosX = 0, firePosY = 0, xpPoint = 0;
     public int health = 100;
     public GameObject fire;
@@ -22,7 +24,6 @@ public class NPCManagerGroup_B : MonoBehaviour
         gameObjectName = gameObject.name.Substring(0,gameObject.name.Length - 4);
         if(gameObjectName == "FreeKnight_1" || gameObjectName == "FreeKnight_2" || gameObjectName == "HeavyBandit" || gameObjectName == "King" || gameObjectName == "Knight" || gameObjectName == "LightBandit" || gameObjectName == "Warrior"){
             isFriend = true;
-            //Debug.Log(gameObjectName + " is Friend");
         }
         foreach(AnimationClip clip in GetComponent<Animator>().runtimeAnimatorController.animationClips)
         {
@@ -37,13 +38,14 @@ public class NPCManagerGroup_B : MonoBehaviour
 
     void Start()
     {
-        /*if(!isFriend)
-            InvokeRepeating("MakeAttack",3f,3f);*/
+
     }
     
     void Update()
     {
+        //Düşman ile dost bu scripti kullanmaktadır. O yüzden isSpeaking durumu vardır.
         if(isPatroling || isActive){
+            //Dost görüş alanı için Trigger kullanılmıştır. Bu yüzden dost TriggerStay fonksiyonunda algılayabilmsi için rasgele bir konum değiştirme ekleyebilmiştir bu amaç ile Translate kullanılmıştır.
             if(!isTakingDamage && !isAttacking && !isDead && !isIdle && Physics2D.Raycast(groundDetection.position, Vector2.down, 0).collider){
                 animations.Walk(GetComponent<Animator>());
                 if(isMovingRight){
@@ -182,8 +184,8 @@ public class NPCManagerGroup_B : MonoBehaviour
         }
         CreateFood();
     }
-
-     void CreateFood(){
+    //Düşman veya dost öldüğün rasgele yiyecek üretmektedir.
+    void CreateFood(){
         float state = Random.Range(0.0f,1.0f);
         Debug.Log("state" + state);
         if(state > 0.5f){

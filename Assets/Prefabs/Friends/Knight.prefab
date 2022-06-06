@@ -282,13 +282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackRateTime: 1.5
-  friendWords:
-  - sgf
-  - sdfg
-  - sdfg
-  heroWords:
-  - sdfg
-  - sdfgssfg
-  - fg
+  friendWords: []
+  heroWords: []
   speechArea: {fileID: 0}
   text: {fileID: 0}

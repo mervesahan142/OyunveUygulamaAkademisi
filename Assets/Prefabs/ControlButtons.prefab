@@ -122,15 +122,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MainCharacterController, Assembly-CSharp
-        m_MethodName: Speak
-        m_Mode: 1
+        m_TargetAssemblyTypeName: SkillManagerandUI, Assembly-CSharp
+        m_MethodName: UpdateSkill
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: EnduranceLevel_1Button
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &288469568794113555
@@ -253,7 +253,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7134673712455852180}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: SkillManagerandUI, Assembly-CSharp
+        m_MethodName: PlayPause
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &339980356746486111
 GameObject:
   m_ObjectHideFlags: 0
@@ -376,15 +388,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MainCharacterController, Assembly-CSharp
-        m_MethodName: Speak
-        m_Mode: 1
+        m_TargetAssemblyTypeName: SkillManagerandUI, Assembly-CSharp
+        m_MethodName: UpdateSkill
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: EnduranceLevel_2Button
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &375920637016810670
@@ -508,12 +520,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+        m_TargetAssemblyTypeName: SkillManagerandUI, Assembly-CSharp
+        m_MethodName: CloseSkillMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -986,15 +998,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MainCharacterController, Assembly-CSharp
-        m_MethodName: Speak
-        m_Mode: 1
+        m_TargetAssemblyTypeName: SkillManagerandUI, Assembly-CSharp
+        m_MethodName: UpdateSkill
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: MoveSpeedLevel_1Button
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &895473264408868151
@@ -1332,15 +1344,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MainCharacterController, Assembly-CSharp
-        m_MethodName: Speak
-        m_Mode: 1
+        m_TargetAssemblyTypeName: SkillManagerandUI, Assembly-CSharp
+        m_MethodName: UpdateSkill
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: AttackRangeLevel_2Button
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &1439325657612871976
@@ -3679,7 +3691,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: MainCharacterController, Assembly-CSharp
-          m_MethodName: JumpButtonUp
+          m_MethodName: DodgeButtonUp
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -3811,15 +3823,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MainCharacterController, Assembly-CSharp
-        m_MethodName: Speak
-        m_Mode: 1
+        m_TargetAssemblyTypeName: SkillManagerandUI, Assembly-CSharp
+        m_MethodName: UpdateSkill
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: DodgeSpeedLevel_1Button
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &2987175274163362558
@@ -5050,15 +5062,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MainCharacterController, Assembly-CSharp
-        m_MethodName: Speak
-        m_Mode: 1
+        m_TargetAssemblyTypeName: SkillManagerandUI, Assembly-CSharp
+        m_MethodName: UpdateSkill
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: AttackRangeLevel_1Button
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6581569802057602689
@@ -5183,15 +5195,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MainCharacterController, Assembly-CSharp
-        m_MethodName: Speak
-        m_Mode: 1
+        m_TargetAssemblyTypeName: SkillManagerandUI, Assembly-CSharp
+        m_MethodName: UpdateSkill
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: AttackLevel_1Button
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6792445133077296404
@@ -5718,15 +5730,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MainCharacterController, Assembly-CSharp
-        m_MethodName: Speak
-        m_Mode: 1
+        m_TargetAssemblyTypeName: SkillManagerandUI, Assembly-CSharp
+        m_MethodName: UpdateSkill
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: AttackLevel_2Button
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &7792748088017278064
@@ -5822,7 +5834,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1768547207827649884
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6142,15 +6154,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MainCharacterController, Assembly-CSharp
-        m_MethodName: Speak
-        m_Mode: 1
+        m_TargetAssemblyTypeName: SkillManagerandUI, Assembly-CSharp
+        m_MethodName: UpdateSkill
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: DodgeSpeedLevel_2Button
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &8088761693843794238
@@ -6475,15 +6487,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MainCharacterController, Assembly-CSharp
-        m_MethodName: Speak
-        m_Mode: 1
+        m_TargetAssemblyTypeName: SkillManagerandUI, Assembly-CSharp
+        m_MethodName: UpdateSkill
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: MoveSpeedLevel_2Button
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &8647174506529340686
@@ -6607,7 +6619,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5618504104137358456}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: SkillManagerandUI, Assembly-CSharp
+        m_MethodName: OpenSkillMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8759291563102519775
 GameObject:
   m_ObjectHideFlags: 0

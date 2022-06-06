@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class NPCEnemyAIGroup_A : MonoBehaviour
 {
+    //Grup A NPC'leri hareketlerini ve animasyonlarını yöneten script.
+
     public float attackRateTime = 2;
     bool isActive, isPatroling, isWalking, isIdle, isAttacking;
     Transform friendTransform;
@@ -20,6 +22,7 @@ public class NPCEnemyAIGroup_A : MonoBehaviour
     }
 
     void PatrolAI(){
+        //Platform üzerinde rasgele hareket ettirtmektedir.
         float state = Random.Range(0,2);
         if(state > 0.5f){
             GetComponent<NPCManagerGroup_A>().Patrol();
@@ -50,6 +53,7 @@ public class NPCEnemyAIGroup_A : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
+        //Karakter veya dost grubu A görüş alanına girdiğinde saldırmayı yönetmektedir. 
         if(other.tag == "Player" || other.tag == "FriendGroup_A"){
             isActive = true;
             GetComponent<NPCManagerGroup_A>().BeActive();
@@ -58,6 +62,7 @@ public class NPCEnemyAIGroup_A : MonoBehaviour
     }
 
     private void OnTriggerStay2D(Collider2D other) {
+        //Karakter veya dost grubu A görüş alanına girdiğinde takibi sağlamaktadır. 
         if(other.tag == "Player" || other.tag == "FriendGroup_A"){
             isActive = true;
             if(Mathf.Abs(transform.position.x - other.GetComponent<Transform>().position.x) < attackDistance){
@@ -86,6 +91,7 @@ public class NPCEnemyAIGroup_A : MonoBehaviour
     }
 
     private void OnTriggerExit2D(Collider2D other) {
+        //Karakter veya dost grubu A görüş alanından çıktığında tekrar devriye durumuna döndürür.
         if(other.tag == "Player" || other.tag == "FriendGroup_A"){
             isActive = false;
             friendTransform = null;
