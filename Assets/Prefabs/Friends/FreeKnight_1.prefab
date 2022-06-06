@@ -283,24 +283,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackRateTime: 2
   friendWords:
-  - "Merhaba gen\xE7 sava\u015F\xE7\u0131, uzak diyarlardan bir yolcu gibisin.Otur,soluklan
-    ve seni buraya getiren sebep nedir anlat."
-  - "Sen de iksirlerle kafay\u0131 bozmu\u015F b\xFCy\xFCc\xFClerden misin yoksa?
-    (G\xFClerek)"
-  - "Ani \xE7\u0131k\u0131\u015Flar\u0131n ve g\xF6zlerindeki par\u0131lt\u0131dan
-    ger\xE7ek bir sava\u015F\xE7\u0131 oldu\u011Funu anlad\u0131m evlat.Yine de hen\xFCz
-    \xE7ok toysun,geldi\u011Fin y\xF6nde devam et \xF6n\xFCne \xE7\u0131kan engelleri
-    a\u015F\u0131p,yeni bilgeler tan\u0131d\u0131\u011F\u0131n takdirde,hedefine
+  - "Estacado: Merhaba gen\xE7 sava\u015F\xE7\u0131, ben Estacado. Uzak diyarlardan
+    bir yolcu gibisin.Otur,soluklan,kendini tan\u0131t ve seni buraya getiren sebep
+    nedir anlat."
+  - "Estacado: Sen de iksirlerle kafay\u0131 bozmu\u015F b\xFCy\xFCc\xFClerden misin
+    yoksa? (G\xFClerek)"
+  - "Estacado: Ani \xE7\u0131k\u0131\u015Flar\u0131n ve g\xF6zlerindeki par\u0131lt\u0131dan
+    ger\xE7ek bir sava\u015F\xE7\u0131 oldu\u011Funu anlad\u0131m Alphonso.Yine de
+    hen\xFCz \xE7ok toysun,geldi\u011Fin y\xF6nde devam et  \xF6n\xFCne \xE7\u0131kan
+    engelleri a\u015F\u0131p,yeni bilgeler tan\u0131d\u0131\u011F\u0131n takdirde,hedefine
     ula\u015Facaks\u0131n."
   heroWords:
-  - "Merhaba,benim hikayem inan\u0131lmas\u0131 g\xFC\xE7 bir hikaye.Uzak diyarlardan
-    de\u011Fil,bulundu\u011Funuz zamana hi\xE7 de yak\u0131n olmayan bir gelecekten
-    geliyorum.Halk\u0131m ya\u015Fam\u0131n\u0131 s\xFCrd\xFCrebilmek i\xE7in Alexandrite'e
-    muhta\xE7,ihtiyac\u0131m\u0131z olan\u0131 aramaya geldim."
-  - "Amac\u0131ma giden yolda bana yard\u0131m\u0131 dokunacak bilge ki\u015Filiklere
+  - "Alphonso: Merhaba,ad\u0131m Alphonso, hikayem inan\u0131lmas\u0131 g\xFC\xE7
+    bir hikaye.Uzak diyarlardan de\u011Fil,bulundu\u011Funuz zamana hi\xE7 de yak\u0131n
+    olmayan bir gelecekten geliyorum.Halk\u0131m ya\u015Fam\u0131n\u0131 s\xFCrd\xFCrebilmek
+    i\xE7in Alexandrite'e muhta\xE7, ihtiyac\u0131m\u0131z olan\u0131 aramaya geldim."
+  - "Alphonso: Amac\u0131ma giden yolda bana yard\u0131m\u0131 dokunacak bilge ki\u015Filiklere
     ihtiyac\u0131m var,yol g\xF6sterici olursan\u0131z benim de size yard\u0131mlar\u0131m
-    dokunabilir.Niyetiniz dalga ge\xE7mekse,g\xF6lge etmeyin ba\u015Fka ihsan istemem!"
-  - "Yard\u0131m\u0131n\u0131z i\xE7in minnettar\u0131m. Kim bilir,belki de yollar\u0131m\u0131z
-    bir daha kesi\u015Fir..."
+    dokunabilir. Niyetiniz dalga ge\xE7mekse,g\xF6lge etmeyin ba\u015Fka ihsan istemem!"
+  - "Alphonso: Yard\u0131m\u0131n\u0131z i\xE7in m\xFCte\u015Fekkirim. Kim bilir,belki
+    de yollar\u0131m\u0131z bir daha kesi\u015Fir...  "
   speechArea: {fileID: 0}
   text: {fileID: 0}
