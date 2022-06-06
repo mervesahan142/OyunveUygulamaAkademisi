@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: f2049161e3e176b48aa99aee7915836f
+guid: 3581f3b014e6e314b8efa5b87ab69269
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4177220209166712611
-    second: Alexandroit
+      213: 482187614450482571
+    second: Sandik_21
+  - first:
+      213: 9037525623743449680
+    second: Sandik_22
+  - first:
+      213: 8522134835236611764
+    second: Sandik_23
+  - first:
+      213: 3996680506323936886
+    second: Sandik_24
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -106,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Alexandroit
+      name: Sandik_21
       rect:
         serializedVersion: 2
-        x: 409
-        y: 2
-        width: 76
-        height: 90
+        x: 31
+        y: 256
+        width: 34
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,8 +129,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd009040a588706c0800000000000000
-      internalID: -4177220209166712611
+      spriteID: b8df962a41311b600800000000000000
+      internalID: 482187614450482571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandik_22
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 256
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a08b30cadbb6d70800000000000000
+      internalID: 9037525623743449680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandik_23
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 256
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6a24efa74b44670800000000000000
+      internalID: 8522134835236611764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandik_24
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 256
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676aa24cebf077730800000000000000
+      internalID: 3996680506323936886
       vertices: []
       indices: 
       edges: []
