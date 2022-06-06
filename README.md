@@ -149,8 +149,10 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 ![Backlog_5](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint3Documents/sprint3.5.png)
 
 - **Ürün Durumu**: Ekran görüntüleri:
-  ![Screenshot 1]()
-  ![Screenshot 2]()
+  ![Screenshot 1](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint3Documents/Ekran%20Al%C4%B1nt%C4%B1s%C4%B1.PNG)
+  ![Screenshot 2](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint3Documents/Ekran%20Al%C4%B1nt%C4%B1s%C4%B1%202.PNG)
+  ![Screenshot 3](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint3Documents/Ekran%20Al%C4%B1nt%C4%B1s%C4%B1%203.PNG)
+  ![Screenshot 4](https://github.com/mervesahan142/OyunveUygulamaAkademisi/blob/main/ProjectManagement/Sprint3Documents/Ekran%20Al%C4%B1nt%C4%B1s%C4%B1%204.PNG)
 
 - **Sprint Review**: 
 Alınan kararlar: Sprint 2'de belirlenen oyun mekanları tamamlandı ve Enemy karakterler mekanlara yerleştirildi. Takım üyeleri ile beraber mekanlar kontrol edildi ve eksiklikler tamamlandı. Oyuna skill ağacı eklendi. Mekanlar arası geçişler yapıldı. Ana karakter ve NPC'ler arasındaki dialoglar eklendi. Mekanlara müzikler eklendi. Sprint Review katılımcıları: Batuhan Sedat KOLBAŞ, Merve ŞAHAN, Beyza Zeynep TOPÇU, Orkun DEMİRCİ, Şekufe KALKAN
@@ -171,7 +173,7 @@ Alınan kararlar: Sprint 2'de belirlenen oyun mekanları tamamlandı ve Enemy ka
 
 
 -**Diğer Notlar**:
-- [Link to APK]()
+- [Link to APK](https://drive.google.com/file/d/1Vjf3dSeLM4IQFiunWdxVd-BlssR-RFB-/view?usp=sharing)
 - [Link to story](https://docs.google.com/document/d/1qeP6IqIVlxglghG1ofAf2P7BxvNAaVSftV7PXGu6gaM/edit?usp=sharing)
 
 ---
