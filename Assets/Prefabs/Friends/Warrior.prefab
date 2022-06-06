@@ -233,8 +233,9 @@ MonoBehaviour:
     Bilge ki\u015Filerden yolun sonunda b\xFCy\xFCl\xFC bir kap\u0131 oldu\u011Funu
     duymu\u015Ftum.Yer k\xFCrenin alt\u0131yla \xFCst\xFCn\xFC birbirine ba\u011Fl\u0131yor
     olmal\u0131!"
-  - "Lillia: L\xFCtfen her daim tetikte ol,d\xFC\u015Fmanlar onlara arkan\u0131 d\xF6nmene
-    izin vermeyecek kadar \xE7etin.Sen benim son varolu\u015F umudumsun...  "
+  - "Lillia:L\xFCtfen her daim tetikte ol,d\xFC\u015Fmanlar onlara arkan\u0131 d\xF6nmene
+    izin vermeyecek kadar \xE7etin.Sen benim son varolu\u015F umudumsun...Gitmeden
+    \xF6nce bana ad\u0131n\u0131 ba\u011F\u0131\u015Fla."
   heroWords:
   - "Alphonso: Yaln\u0131zca kendi yolumu takip ediyorum.Nedir buray\u0131 lanetli
     k\u0131lan?"
@@ -242,6 +243,7 @@ MonoBehaviour:
     yolunu tarif et ve seni ayd\u0131nl\u0131\u011Fa kavu\u015Fturmama izin ver."
   - "Alphonso: Yard\u0131m\u0131n i\xE7in minnettar\u0131m,s\xF6z verdi\u011Fim \xFCzere
     seni korkular\u0131ndan ar\u0131nd\u0131raca\u011F\u0131m."
+  - "Alphonso: \u0130smim Alphonso.Merak etme,unutmana izin vermeyece\u011Fim."
   speechArea: {fileID: 0}
   text: {fileID: 0}
 --- !u!1 &6865596669376002677
