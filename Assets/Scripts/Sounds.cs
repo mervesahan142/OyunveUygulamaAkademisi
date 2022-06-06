@@ -4,7 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Sounds : MonoBehaviour
-{
+{   
+    //Oyun seslerini yöneten scripttir.
+
     public AudioClip[] audioClips;
     public AudioClip[] musicClips;
     AudioSource audioSource;
@@ -18,13 +20,13 @@ public class Sounds : MonoBehaviour
                 audioSource.clip = musicClips[0];
                 break;
             case "village":
-                audioSource.clip = musicClips[0];
+                audioSource.clip = musicClips[1];
                 break;
             case "Cave":
                 //audioSource.clip = musicClips[0];
                 break;
-            case "Denme":
-                audioSource.clip = musicClips[0];
+            case "Castle":
+                audioSource.clip = musicClips[2];
                 break;
             default:
                 audioSource.clip = musicClips[0];

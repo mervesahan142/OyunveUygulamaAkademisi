@@ -6,6 +6,10 @@ using UnityEngine.UI;
 
 public class MainCharacterController : MonoBehaviour
 {
+    /*
+        Oyuncunun karakteri kontrol ettiği scripttir.
+    */
+
     public float characterMoveSpeed = 2f, characterDodgeSpeed = 2f ,attackRange = 0.5f;
     public int attackLevel = 1, enduranceLevel = 1;
     public Transform attackPoint;
@@ -20,12 +24,14 @@ public class MainCharacterController : MonoBehaviour
     GameObject speechButton, friendGameObject, sound;
     Image healthBar;
 
+    //Attack menzilini tanımlamak için kullanılmıştır.
     private void OnDrawGizmosSelected() {
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
     
     void Awake()
     {
+        //Oyun kapanıp tekrar açıldığında karakteer ile ilgili bir veri kaybı olamaması için PlayerPrefs kullanılmıştır.
         spokeWithFreeKnight_1 = PlayerPrefs.GetInt("spokeWithFreeKnight_1");
         spokeWithKnight = PlayerPrefs.GetInt("spokeWithKnight");
         spokeWithWarrior = PlayerPrefs.GetInt("spokeWithWarrior");
@@ -43,6 +49,7 @@ public class MainCharacterController : MonoBehaviour
 
         sound = GameObject.Find("Sound");
 
+        //attack leveline göre karakterin attack hasarı atanmıştır.
         switch(attackLevel){
             case 1:
                 attackDamage = 25;
@@ -58,6 +65,7 @@ public class MainCharacterController : MonoBehaviour
 
     void Start()
     {
+        //Periyodik olarak yütüme sesini duymak için kullanılmıştır. WalkSound fonksiyonunun içerisindeki bir koşul ile yürüdüğünü anlayıp ses verektedir.
         InvokeRepeating("WalkSound", 0.5f, 0.5f);
     }
 
@@ -70,6 +78,7 @@ public class MainCharacterController : MonoBehaviour
     void Update()
     {
         if(!isSpeaking){
+            //Düşman görüş alanı için Trigger kullanılmıştır. Bu yüzden düşman TriggerStay fonksiyonunda algılayabilmsi için rasgele bir konum değiştirme ekleyebilmiştir bu amaç ile Translate kullanılmıştır..
             transform.Translate(new Vector3(Random.Range(-0.0001f,0.0001f),0,0));
             if(!isTakingDamage && !isDead){
                 //Defence
@@ -116,10 +125,12 @@ public class MainCharacterController : MonoBehaviour
                     }
                     AttackSound();
                     //attack to enemy
+                    //Karakter attak yaptığında ve bir düşman menzil içindeyse o düşmanın canını azaltmak için kullanılmıştır.
                     Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position,attackRange,enemyLayers);
                     foreach(Collider2D enemy in hitEnemies){
                         if(Mathf.Abs(enemy.transform.position.x - transform.position.x) < attackRange * 6){
                             if(enemy.tag == "EnemyGroup_A"){
+                                //Düşmanın canını azaltmak için düşman script'deki TakeDamage fonksiyonunu çalıştırmaktadır.
                                 enemy.GetComponent<NPCManagerGroup_A>().TakeDamage(attackDamage,0,true);
                             }else if(enemy.tag == "EnemyGroup_B"){
                                 enemy.GetComponent<NPCManagerGroup_B>().TakeDamage(attackDamage,0,true);
@@ -131,7 +142,7 @@ public class MainCharacterController : MonoBehaviour
                 //Jump
                 if(isJumping && anim.GetGrounded(GetComponent<Animator>())){
                     isGrounded = false;
-                    GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 6), ForceMode2D.Impulse);
+                    GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 7.5f), ForceMode2D.Impulse);
                     anim.Jump(GetComponent<Animator>());
                     sound.GetComponent<Sounds>().HeroJump();
                 }
@@ -155,10 +166,15 @@ public class MainCharacterController : MonoBehaviour
 
     void LateUpdate() {
         Camera.main.transform.position = new Vector3(transform.position.x, Camera.main.transform.position.y, Camera.main.transform.position.z);
+        //Aşağıya düştüğünde karakterin ölmesi için yazılmıştır.
+        if(!isDead && transform.position.y < -10){
+            Die();
+        }
     }
 
     int soundCount = 1;
     void AttackSound(){
+        //Saldırı sesi bir tanedir ama animasyonda ard ardadır. Bu yüzen attackLevel sayısına kadar sesi çalıştırması gerekmektedir.
         sound.GetComponent<Sounds>().HeroAttack();
         if(attackLevel == soundCount){
             soundCount = 1;
@@ -182,6 +198,7 @@ public class MainCharacterController : MonoBehaviour
             isGrounded = true;
             anim.Ground(GetComponent<Animator>());
         }
+        //Düşmanlardan düşen yiyecelkleri toplayarak can kazanabilir. O yüzden yiyeceğin türüne göre can doldurması için kullanılmıştır.
         switch(other.gameObject.tag){
             case "Apple":
                 health = health + 20;
@@ -230,6 +247,7 @@ public class MainCharacterController : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D other){
+        //Dost olan npcler ile konuşma amacıyla kullanılmıştır.
         if(other.tag == "FriendGroup_A"){
             switch(other.name){
                 case "FreeKnight_1":
@@ -274,6 +292,7 @@ public class MainCharacterController : MonoBehaviour
     
     int enemyAttackDamage = 0;
     public void TakeDamage(int attackDamage, float attackTime, bool isByChar){
+        //Düşmandan gelen hasarı almak için kullanılmıştır.
         if(!isDead && !isTakingDamage){
             Invoke("ShowDamageAnim", attackTime);
             enemyAttackDamage = (int)attackDamage / enduranceLevel;
@@ -291,21 +310,27 @@ public class MainCharacterController : MonoBehaviour
                 if(health > 0){
                     anim.TakeDamage(GetComponent<Animator>());
                 }else{
-                    isDead = true;
-                    anim.Dead(GetComponent<Animator>());
-                    sound.GetComponent<Sounds>().Die();
-                    Invoke("GameOver", 1.0f);
+                    Die();
                 }
             }
             isTakingDamage = false;
         }
     }
 
+    void Die(){
+        isDead = true;
+        anim.Dead(GetComponent<Animator>());
+        sound.GetComponent<Sounds>().Die();
+        Invoke("GameOver", 1.0f);
+    }
+
     void GameOver(){
+        //Oyun bitti ekranına gönderir
         Camera.main.GetComponent<ScenesManager>().GameOver();
     }
 
     public void UpdateSkills(){
+        //Toplanan puanları kullanarak yeteneği gelişmektedir gelişen yetenekleri kaydetmektedir.
         attackLevel = PlayerPrefs.GetInt("attackLevel");
         enduranceLevel = PlayerPrefs.GetInt("enduranceLevel");
         characterMoveSpeed = PlayerPrefs.GetInt("moveSpeedLevel") + 1;
@@ -342,6 +367,8 @@ public class MainCharacterController : MonoBehaviour
         }
         speechButton.SetActive(false);
     }
+
+    //Buttonlar Basma ve Basmayı bıraktığı anı algılamaktadır ve bu algılamaya göre durm yönetimi yapmaktadır.
 
     public void RightButtonDown(){
         isMovingRight = true;

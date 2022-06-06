@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class NPCFriendAI : MonoBehaviour
 {
+    //Dost NPC'leri hareketlerini ve animasyonlarını yöneten script.
+
     public float attackRateTime = 2;
     bool isActive, isPatroling, isWalking, isIdle, isAttacking;
     Transform friendTransform;
@@ -60,6 +62,7 @@ public class NPCFriendAI : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
+        //Düşman görüş alanına girdiğinde saldırmayı yönetmektedir. 
         if(other.tag == "EnemyGroup_A" || other.tag == "EnemyGroup_B"){
             isActive = true;
             GetComponent<NPCManagerGroup_A>().BeActive();
@@ -68,6 +71,7 @@ public class NPCFriendAI : MonoBehaviour
     }
 
     private void OnTriggerStay2D(Collider2D other) {
+        //Düşman görüş alanına girdiğinde takibi sağlamaktadır.
         if(other.tag == "EnemyGroup_A" || other.tag == "EnemyGroup_B"){
             isActive = true;
             if(Mathf.Abs(transform.position.x - other.GetComponent<Transform>().position.x) < attackDistance){
@@ -96,14 +100,15 @@ public class NPCFriendAI : MonoBehaviour
     }
 
     private void OnTriggerExit2D(Collider2D other) {
+        //Düşman görüş alanından çıktığında tekrar normala döndürür.
         if(other.tag == "EnemyGroup_A" || other.tag == "EnemyGroup_B"){
             isActive = false;
             friendTransform = null;
             GetComponent<NPCManagerGroup_A>().BeNotActive();
-            //Invoke("PatrolAI",Random.Range(0,5));
         }
     }
 
+    //Karakter ile konuşmayı sağlamaktadır.
     public void Speak(){
         GetComponent<NPCManagerGroup_A>().Speak();
         speechArea.SetActive(true);

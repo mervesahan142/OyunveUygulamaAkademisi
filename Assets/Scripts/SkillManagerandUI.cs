@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class SkillManagerandUI : MonoBehaviour
 {
+    //Skill ağacını ve durumunu kontrol eden scripttir
+
     int level = 1, levelMaxXp, levelXp = 0, skillPointValue = 0, skillRightValue = 0, attackLevel = 1, enduranceLevel = 1, moveSpeedLevel = 1, dodgeSpeedLevel = 1, attackRangeLevel = 1;
     Image xpImage, skillRightArea, skillMenu;
     Text levelText, skillRightText;
@@ -24,25 +26,6 @@ public class SkillManagerandUI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //reset
-        /*if(true){
-            PlayerPrefs.SetInt("spokeWithFreeKnight_1", 0);
-            PlayerPrefs.SetInt("spokeWithKnight", 0);
-            PlayerPrefs.SetInt("spokeWithWarrior", 0);
-            PlayerPrefs.SetInt("spokeWithKing", 0);
-
-            PlayerPrefs.SetInt("level", 1);
-            PlayerPrefs.SetInt("levelXp", 0);
-            PlayerPrefs.SetInt("skillPointValue", 0);
-            PlayerPrefs.SetInt("skillRightValue", 0);
-
-            PlayerPrefs.SetInt("attackLevel", 1);
-            PlayerPrefs.SetInt("enduranceLevel", 1);
-            PlayerPrefs.SetInt("moveSpeedLevel", 1);
-            PlayerPrefs.SetInt("dodgeSpeedLevel", 1);
-            PlayerPrefs.SetInt("attackRangeLevel", 1);
-        }*/
-
         pauseButton = GameObject.Find("PauseButton").GetComponent<Button>();
         //level
         level = PlayerPrefs.GetInt("level");
@@ -209,7 +192,7 @@ public class SkillManagerandUI : MonoBehaviour
         sound.GetComponent<Sounds>().Click();
 
     }
-
+    
     public void PlayPause(){
         sound.GetComponent<Sounds>().Click();
         if(Time.timeScale == 0){
