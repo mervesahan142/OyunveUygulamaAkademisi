@@ -253,11 +253,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackRateTime: 1
   friendWords:
-  - ef
-  - ef
+  - "King Bradley:Ho\u015F geldin \u015Fanl\u0131 sava\u015F\xE7\u0131 Alphonso.Ben,
+    Antenor Halk\u0131'n\u0131n kudretli kral\u0131 King Bradley. Nam\u0131n\u0131
+    duydum,topraklar\u0131m\u0131za neden ayak bast\u0131\u011F\u0131n\u0131 biliyorum.G\xFCvercinlerim
+    s\u0131k\u0131 \xE7al\u0131\u015F\u0131yor(Hafif\xE7e tebess\xFCm ederek).Lakin
+    \xF6ncesinde ilgilenmen  gereken ba\u015Fka bir konu var.D\xFC\u015Fmanlar\u0131m\u0131z
+    uzun zamand\u0131r planlad\u0131klar\u0131 sald\u0131r\u0131y\u0131 hayata ge\xE7irmek
+    \xFCzere toplanacaklar.\u0130htiyac\u0131n olan Alexandrite'i  elde etmek istiyorsan,krall\u0131\u011F\u0131m\u0131
+    muhafaza et."
   heroWords:
-  - tre
-  - tre
+  - "Alphonso:\xDClkenizin gelece\u011Fine dair \u015F\xFCpheniz olmas\u0131n King
+    Bradley. Halk\u0131n\u0131z\u0131n saadeti g\xFCn\xFCn sonunda bana kendi halk\u0131m\u0131n
+    saadetini de getirecek!"
   speechArea: {fileID: 0}
   text: {fileID: 0}
 --- !u!1 &8852867017170798077

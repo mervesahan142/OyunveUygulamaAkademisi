@@ -223,11 +223,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackRateTime: 2
   friendWords:
-  - asd
-  - fgf
+  - "Lillia: Elf g\xF6zlerin neler g\xF6r\xFCyor Lillia? Y\u0131llard\u0131r bu lanetli
+    yere ger\xE7ek bir sava\u015F\xE7\u0131 u\u011Framam\u0131\u015Ft\u0131."
+  - "Lillia: G\xF6rkemli canavarlar...Onlar,onlar her yerdeler.Merhametten yoksun
+    iblislerden,ruhunu \xE7almak isteyen hayaletlere...\xD6mr\xFCm\xFCn sonuna kadar
+    t\xFCylerimi \xFCrperten bu karanl\u0131ktan ka\xE7amayaca\u011F\u0131m."
+  - "Lillia: Takip edilebilecek bir patika var.Defalarca kez cesaretimi toplay\u0131p
+    ilerlemeye \xE7al\u0131\u015Fsam da her seferinde h\xFCsranla kar\u015F\u0131la\u015Ft\u0131m.
+    Bilge ki\u015Filerden yolun sonunda b\xFCy\xFCl\xFC bir kap\u0131 oldu\u011Funu
+    duymu\u015Ftum.Yer k\xFCrenin alt\u0131yla \xFCst\xFCn\xFC birbirine ba\u011Fl\u0131yor
+    olmal\u0131!"
+  - "Lillia: L\xFCtfen her daim tetikte ol,d\xFC\u015Fmanlar onlara arkan\u0131 d\xF6nmene
+    izin vermeyecek kadar \xE7etin.Sen benim son varolu\u015F umudumsun...  "
   heroWords:
-  - sdf
-  - gfg
+  - "Alphonso: Yaln\u0131zca kendi yolumu takip ediyorum.Nedir buray\u0131 lanetli
+    k\u0131lan?"
+  - "Alphonso: O vakit bir anla\u015Fma yapal\u0131m.Bana \xE7\u0131k\u0131\u015F
+    yolunu tarif et ve seni ayd\u0131nl\u0131\u011Fa kavu\u015Fturmama izin ver."
+  - "Alphonso: Yard\u0131m\u0131n i\xE7in minnettar\u0131m,s\xF6z verdi\u011Fim \xFCzere
+    seni korkular\u0131ndan ar\u0131nd\u0131raca\u011F\u0131m."
   speechArea: {fileID: 0}
   text: {fileID: 0}
 --- !u!1 &6865596669376002677
