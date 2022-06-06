@@ -282,7 +282,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackRateTime: 1.5
-  friendWords: []
-  heroWords: []
+  friendWords:
+  - "Drake: Hikayeni duydum ve yarat\u0131klarla olan sava\u015F\u0131n\u0131 g\xF6rd\xFCm
+    gen\xE7 adam. Unutmadan ismimi bah\u015Fedeyim,ben Drake. Bilir misin b\xF6yle
+    fantastik hikayeleri hep ilgi \xE7ekici bulmu\u015Fumdur. Ancak uyarmal\u0131y\u0131m
+    ki madalyonun di\u011Fer y\xFCz\xFC g\xF6r\xFCnd\xFC\u011F\xFC gibi de\u011Fil.
+    Bu diyara daha \xF6nce de \xE7ok yi\u011Fit sava\u015F\xE7\u0131lar geldi,bir\xE7o\u011Fu
+    \u015Fu an topra\u011F\u0131n alt\u0131nda. \xD6ng\xF6r\xFClemez ko\u015Fullara
+    ayak uydurup Alexandrite'ini almak istiyorsan rehberli\u011Fime ihtiya\xE7 duyacaks\u0131n."
+  - "Drake: Yeni bir sava\u015Ftan \xE7\u0131kt\u0131n \xF6ncelikle biraz dinlen.Her
+    zaman tetikte olabilmek i\xE7in gereken enerjiyi b\xFCnyende bar\u0131nd\u0131rmal\u0131s\u0131n.Alexandrite
+    kudretli bir d\xFC\u015Fman taraf\u0131ndan korunuyor ve ona giden yolda \xE7ok
+    daha fazlas\u0131 var.Unutma,benim yapabilece\u011Fim \u015Fey koordinatlar\u0131
+    ve taktikleri vermekle s\u0131n\u0131rl\u0131.D\xFC\u015Fmanlar\u0131n\u0131
+    alt edecek g\xFC\xE7 senin i\xE7inde."
+  - "Drake: Sen bir sava\u015F\xE7\u0131s\u0131n evlat,bilirim ki k\u0131l\u0131c\u0131n\u0131
+    iyi kullan\u0131rs\u0131n ama unutma kar\u015F\u0131na \xE7\u0131kacak olan yarat\u0131klar\u0131n
+    k\u0131l\u0131\xE7 ve kalkandan fazlas\u0131 var. B\xFCy\xFC yoluyla gelecek
+    sald\u0131r\u0131lara kar\u015F\u0131 dikkatli ol. Kalabal\u0131k kolonilerin
+    i\xE7ine girme ve d\xFC\u015Fman\u0131n\u0131 gafil avla. \u015Eu hayatta g\xFC\xE7ten
+    daha de\u011Ferli bir olgu varsa onun ad\u0131 ak\u0131ld\u0131r."
+  heroWords:
+  - "Alphonso: Tam da ihtiyac\u0131m olan \u015Feyle kar\u015F\u0131la\u015Fmak kaderin
+    cilvesi olsa gerek. Ko\u015Fullar\u0131n zor olaca\u011F\u0131n\u0131 biliyorum.
+    Halk\u0131m\u0131 tekrar  refaha kavu\u015Fturmak i\xE7in elimden ne gerekiyorsa
+    yapmaya haz\u0131r\u0131m."
+  - "Alphonso: Dinlenmeye zaman ay\u0131raca\u011F\u0131m lakin \xF6ncelikle s\xF6yle
+    bana,ne gibi taktiklerdir bu bahsettiklerin?"
+  - "Alphonso: Anla\u015F\u0131ld\u0131,fantastik olan tek \u015Fey benim hikayem
+    de\u011Filmi\u015F,burada bekledi\u011Fimden \xE7ok daha fazlas\u0131 var...  "
   speechArea: {fileID: 0}
   text: {fileID: 0}
